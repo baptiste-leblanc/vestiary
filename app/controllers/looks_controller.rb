@@ -1,0 +1,2 @@
+class LooksController < ApplicationController
+end

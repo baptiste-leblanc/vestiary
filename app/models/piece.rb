@@ -1,3 +1,3 @@
 class Piece < ApplicationRecord
-  belongs_to :look
+  has_many :looks
 end
