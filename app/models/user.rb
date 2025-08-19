@@ -1,4 +1,8 @@
 class User < ApplicationRecord
+  # Include default devise modules. Others available are:
+  # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
+  devise :database_authenticatable, :registerable,
+         :recoverable, :rememberable, :validatable
   has_many :contexts, dependent: :destroy
 
   # Validations
@@ -8,7 +12,4 @@ class User < ApplicationRecord
   validates :weight, numericality: { greater_than: 0 }, allow_nil: true
   validates :height, numericality: { greater_than: 0 }, allow_nil: true
   validates :gender, inclusion: { in: %w[male female other], message: "%<value> n'est pas valide" }, allow_nil: true
-
-  # PostgreSQL array (pictures: string[])
-  serialize :pictures, Array
 end
