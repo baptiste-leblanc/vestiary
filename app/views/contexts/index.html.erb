@@ -1,0 +1,20 @@
+<h1>Context page</h1>
+
+
+<div class="container m-5">
+  <div class="row">
+      <% @looks.each do |look| %>
+        <div class="col-3 border m-2" style="width: 400px; height:200px">
+          <h4 class="m-2"><%= look.name %></h4>
+          <p class="m-2"><%= look.description %></p>
+        </div>
+      <% end %>
+  </div>
+</div>
+
+<div>
+<%= simple_form_for @context do |f| %>
+  <%= f.input :objective, placeholder: "Why do you want a new outfit", required: true %>
+  <%= f.input :budget, :collection => %w[€ €€ €€€ €€€€] %>
+  <% end %>
+</div>
