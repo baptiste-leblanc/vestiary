@@ -1,0 +1,14 @@
+<div class="container my-3">
+  <h1><%= @look.name %></h1>
+
+  <% @pieces.each do |piece| %>
+  <div class="card-product my-3">
+    <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+    <div class="card-product-infos">
+      <h2><%= piece.name %></h2>
+      <p><%= piece.description %></p>
+      <p><%= piece.price %></p>
+    </div>
+  </div>
+  <% end %>
+</div>
