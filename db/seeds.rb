@@ -9,37 +9,40 @@
 #   end
 
 # Supprimer toutes les entrées de la seed
-User.destroy_all
-Context.destroy_all
-Look.destroy_all
-Piece.destroy_all
 LookPiece.destroy_all
+Look.destroy_all
+Message.destroy_all
+Context.destroy_all
+Piece.destroy_all
+User.destroy_all
 
 puts "Everything is destroyed"
 
-# Créer un user
-user = User.new(username: "Ugo", email: "test@test.com", password: "password", gender: "male")
+# Créer un contexte
+
+user = User.new(username: "ugo", email: "test@test.com", password: "password", gender: "male")
 user.save
 puts "User created"
 
-# Créer un contexte
 context = Context.new(objective: "Je recherche un vêtement pour un mariage", budget: "1000€ max", user_id: User.first.id)
 context.save
 puts "Context created"
 
-# Créer un look
 look = Look.new(description: "Costume classique desc", name: "Costume classique", context_id: Context.first.id)
 look.save
-look2 = Look.new(description: "Un truc bien pour l'anniv de mon amie beauf", name: "Tenue décontractée", context_id: Context.first.id)
-look2.save
-puts "looks created"
+puts "look created"
 
-# Créer une piece
-piece = Piece.new(clothing_category: "scarf", name: "Red scarf", description: "Red scarf", price: "10€", brand: "Ralph Lauren", shop_url: "www.google.com")
+piece = Piece.new(clothing_category: "scarf", name: "Red scarf", description: "Red scarf desc", price: "10€", brand: "Ralph Lauren", shop_url: "www.google.com")
+piece.save
+puts "piece created"
+piece = Piece.new(clothing_category: "pull", name: "Red pull", description: "Red pull desc", price: "10€", brand: "Ralph Lauren", shop_url: "www.google.com")
 piece.save
 puts "piece created"
 
-# Créer un lookpiece
 look_piece = LookPiece.new(look_id: Look.first.id, piece_id: Piece.first.id)
+look_piece.save
+puts "look piece created"
+
+look_piece = LookPiece.new(look_id: Look.first.id, piece_id: Piece.last.id)
 look_piece.save
 puts "look piece created"
