@@ -24,19 +24,19 @@
 
     <%= f.input :height,
                 required: true,
-                label: "Taille (cm)",
-                input_html: { step: 0.1, min: 0, max: 300 } %>
+                label: "Height (cm)",
+                input_html: { step: 0.1, min: 0, max: 240 } %>
 
     <%= f.input :weight,
                 required: true,
-                label: "Poids (kg)",
-                input_html: { step: 0.1, min: 0, max: 500 } %>
+                label: "Weight (kg)",
+                input_html: { step: 0.1, min: 0, max: 200 } %>
 
     <%= f.input :gender,
                 required: true,
                 as: :select,
-                collection: [['Homme', 'male'], ['Femme', 'female'], ['Autre', 'other']],
-                prompt: "Sélectionnez votre genre" %>
+                collection: ['male', 'female', 'other'],
+                prompt: "Select your gender" %>
   </div>
 
   <div class="form-actions">
