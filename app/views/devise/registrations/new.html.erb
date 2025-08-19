@@ -4,17 +4,39 @@
   <%= f.error_notification %>
 
   <div class="form-inputs">
-    <%= f.input :email,
+    <%= f.input :username,
                 required: true,
                 autofocus: true,
-                input_html: { autocomplete: "email" }%>
+                input_html: { autocomplete: "username" } %>
+
+    <%= f.input :email,
+                required: true,
+                input_html: { autocomplete: "email" } %>
+
     <%= f.input :password,
                 required: true,
                 hint: ("#{@minimum_password_length} characters minimum" if @minimum_password_length),
                 input_html: { autocomplete: "new-password" } %>
+
     <%= f.input :password_confirmation,
                 required: true,
                 input_html: { autocomplete: "new-password" } %>
+
+    <%= f.input :height,
+                required: true,
+                label: "Height (cm)",
+                input_html: { step: 0.1, min: 0, max: 240 } %>
+
+    <%= f.input :weight,
+                required: true,
+                label: "Weight (kg)",
+                input_html: { step: 0.1, min: 0, max: 200 } %>
+
+    <%= f.input :gender,
+                required: true,
+                as: :select,
+                collection: ['male', 'female', 'other'],
+                prompt: "Select your gender" %>
   </div>
 
   <div class="form-actions">
