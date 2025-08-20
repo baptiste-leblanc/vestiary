@@ -1,8 +1,20 @@
 class ContextsController < ApplicationController
   skip_before_action :authenticate_user!
 
+  def show
+    3.times do
+      Look.create!(
+        context: @context,
+        name: "Nouveau look",
+        description: "À compléter"
+      )
+    end
+
+    @looks = @context.looks
+  end
+
   def index
-    @user = User.find(params[:user_id])
+    @user = User.last
     @looks = Look.all
     @contexts = Context.all
     @context = Context.new
@@ -17,7 +29,7 @@ class ContextsController < ApplicationController
     @context.user = @user
 
     if @context.save
-      redirect_to user_contexts_path(@user)
+      redirect_to contexts_path(@user)
     else
       @contexts = @user.contexts
       render :index, status: :unprocessable_entity
