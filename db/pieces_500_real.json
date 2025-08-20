@@ -1,0 +1,2322 @@
+[
+  {
+    "clothing_category": "watch",
+    "name": "Seiko Watch 1",
+    "description": "A stylish watch from Seiko, perfect for formal and casual occasions.",
+    "price": "1063€",
+    "brand": "Seiko",
+    "shop_url": "https://www.seikowatches.com"
+  },
+  {
+    "clothing_category": "blazer",
+    "name": "Hugo Boss Blazer 2",
+    "description": "A stylish blazer from Hugo Boss, perfect for formal and casual occasions.",
+    "price": "211€",
+    "brand": "Hugo Boss",
+    "shop_url": "https://www.hugoboss.com"
+  },
+  {
+    "clothing_category": "watch",
+    "name": "Seiko Watch 3",
+    "description": "A stylish watch from Seiko, perfect for formal and casual occasions.",
+    "price": "7680€",
+    "brand": "Seiko",
+    "shop_url": "https://www.seikowatches.com"
+  },
+  {
+    "clothing_category": "suit",
+    "name": "Massimo Dutti Suit 4",
+    "description": "A stylish suit from Massimo Dutti, perfect for formal and casual occasions.",
+    "price": "516€",
+    "brand": "Massimo Dutti",
+    "shop_url": "https://www.fashion.com"
+  },
+  {
+    "clothing_category": "polo",
+    "name": "Tommy Hilfiger Polo 5",
+    "description": "A stylish polo from Tommy Hilfiger, perfect for formal and casual occasions.",
+    "price": "135€",
+    "brand": "Tommy Hilfiger",
+    "shop_url": "https://www.tommy.com"
+  },
+  {
+    "clothing_category": "trousers",
+    "name": "Hugo Boss Trousers 6",
+    "description": "A stylish trousers from Hugo Boss, perfect for formal and casual occasions.",
+    "price": "291€",
+    "brand": "Hugo Boss",
+    "shop_url": "https://www.hugoboss.com"
+  },
+  {
+    "clothing_category": "suit",
+    "name": "Massimo Dutti Suit 7",
+    "description": "A stylish suit from Massimo Dutti, perfect for formal and casual occasions.",
+    "price": "1127€",
+    "brand": "Massimo Dutti",
+    "shop_url": "https://www.fashion.com"
+  },
+  {
+    "clothing_category": "scarf",
+    "name": "Acne Studios Scarf 8",
+    "description": "A stylish scarf from Acne Studios, perfect for formal and casual occasions.",
+    "price": "537€",
+    "brand": "Acne Studios",
+    "shop_url": "https://www.acnestudios.com"
+  },
+  {
+    "clothing_category": "shoes",
+    "name": "Gucci Shoes 9",
+    "description": "A stylish shoes from Gucci, perfect for formal and casual occasions.",
+    "price": "618€",
+    "brand": "Gucci",
+    "shop_url": "https://www.gucci.com"
+  },
+  {
+    "clothing_category": "shoes",
+    "name": "Clarks Shoes 10",
+    "description": "A stylish shoes from Clarks, perfect for formal and casual occasions.",
+    "price": "728€",
+    "brand": "Clarks",
+    "shop_url": "https://www.clarks.com"
+  },
+  {
+    "clothing_category": "jeans",
+    "name": "Levi’s Jeans 11",
+    "description": "A stylish jeans from Levi’s, perfect for formal and casual occasions.",
+    "price": "267€",
+    "brand": "Levi’s",
+    "shop_url": "https://www.levi.com"
+  },
+  {
+    "clothing_category": "suit",
+    "name": "Massimo Dutti Suit 12",
+    "description": "A stylish suit from Massimo Dutti, perfect for formal and casual occasions.",
+    "price": "925€",
+    "brand": "Massimo Dutti",
+    "shop_url": "https://www.fashion.com"
+  },
+  {
+    "clothing_category": "suit",
+    "name": "Hugo Boss Suit 13",
+    "description": "A stylish suit from Hugo Boss, perfect for formal and casual occasions.",
+    "price": "199€",
+    "brand": "Hugo Boss",
+    "shop_url": "https://www.hugoboss.com"
+  },
+  {
+    "clothing_category": "tie",
+    "name": "Hackett Tie 14",
+    "description": "A stylish tie from Hackett, perfect for formal and casual occasions.",
+    "price": "105€",
+    "brand": "Hackett",
+    "shop_url": "https://www.hackett.com"
+  },
+  {
+    "clothing_category": "trousers",
+    "name": "Zara Trousers 15",
+    "description": "A stylish trousers from Zara, perfect for formal and casual occasions.",
+    "price": "79€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "jeans",
+    "name": "Uniqlo Jeans 16",
+    "description": "A stylish jeans from Uniqlo, perfect for formal and casual occasions.",
+    "price": "142€",
+    "brand": "Uniqlo",
+    "shop_url": "https://www.uniqlo.com"
+  },
+  {
+    "clothing_category": "belt",
+    "name": "Levi’s Belt 17",
+    "description": "A stylish belt from Levi’s, perfect for formal and casual occasions.",
+    "price": "38€",
+    "brand": "Levi’s",
+    "shop_url": "https://www.levi.com"
+  },
+  {
+    "clothing_category": "shirt",
+    "name": "Hugo Boss Shirt 18",
+    "description": "A stylish shirt from Hugo Boss, perfect for formal and casual occasions.",
+    "price": "50€",
+    "brand": "Hugo Boss",
+    "shop_url": "https://www.hugoboss.com"
+  },
+  {
+    "clothing_category": "watch",
+    "name": "Casio Watch 19",
+    "description": "A stylish watch from Casio, perfect for formal and casual occasions.",
+    "price": "2915€",
+    "brand": "Casio",
+    "shop_url": "https://www.casio.com"
+  },
+  {
+    "clothing_category": "blazer",
+    "name": "Hugo Boss Blazer 20",
+    "description": "A stylish blazer from Hugo Boss, perfect for formal and casual occasions.",
+    "price": "386€",
+    "brand": "Hugo Boss",
+    "shop_url": "https://www.hugoboss.com"
+  },
+  {
+    "clothing_category": "shirt",
+    "name": "Zara Shirt 21",
+    "description": "A stylish shirt from Zara, perfect for formal and casual occasions.",
+    "price": "53€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "shirt",
+    "name": "Zara Shirt 22",
+    "description": "A stylish shirt from Zara, perfect for formal and casual occasions.",
+    "price": "143€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "shoes",
+    "name": "Church's Shoes 23",
+    "description": "A stylish shoes from Church's, perfect for formal and casual occasions.",
+    "price": "692€",
+    "brand": "Church's",
+    "shop_url": "https://www.church-footwear.com"
+  },
+  {
+    "clothing_category": "watch",
+    "name": "Rolex Watch 24",
+    "description": "A stylish watch from Rolex, perfect for formal and casual occasions.",
+    "price": "4065€",
+    "brand": "Rolex",
+    "shop_url": "https://www.fashion.com"
+  },
+  {
+    "clothing_category": "scarf",
+    "name": "Zara Scarf 25",
+    "description": "A stylish scarf from Zara, perfect for formal and casual occasions.",
+    "price": "594€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "tie",
+    "name": "Hermès Tie 26",
+    "description": "A stylish tie from Hermès, perfect for formal and casual occasions.",
+    "price": "179€",
+    "brand": "Hermès",
+    "shop_url": "https://www.hermes.com"
+  },
+  {
+    "clothing_category": "shirt",
+    "name": "Uniqlo Shirt 27",
+    "description": "A stylish shirt from Uniqlo, perfect for formal and casual occasions.",
+    "price": "81€",
+    "brand": "Uniqlo",
+    "shop_url": "https://www.uniqlo.com"
+  },
+  {
+    "clothing_category": "coat",
+    "name": "Canada Goose Coat 28",
+    "description": "A stylish coat from Canada Goose, perfect for formal and casual occasions.",
+    "price": "877€",
+    "brand": "Canada Goose",
+    "shop_url": "https://www.canadagoose.com"
+  },
+  {
+    "clothing_category": "suit",
+    "name": "Zara Suit 29",
+    "description": "A stylish suit from Zara, perfect for formal and casual occasions.",
+    "price": "638€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "shoes",
+    "name": "Church's Shoes 30",
+    "description": "A stylish shoes from Church's, perfect for formal and casual occasions.",
+    "price": "193€",
+    "brand": "Church's",
+    "shop_url": "https://www.church-footwear.com"
+  },
+  {
+    "clothing_category": "jeans",
+    "name": "Diesel Jeans 31",
+    "description": "A stylish jeans from Diesel, perfect for formal and casual occasions.",
+    "price": "148€",
+    "brand": "Diesel",
+    "shop_url": "https://global.diesel.com"
+  },
+  {
+    "clothing_category": "trousers",
+    "name": "Zara Trousers 32",
+    "description": "A stylish trousers from Zara, perfect for formal and casual occasions.",
+    "price": "140€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "belt",
+    "name": "Ralph Lauren Belt 33",
+    "description": "A stylish belt from Ralph Lauren, perfect for formal and casual occasions.",
+    "price": "109€",
+    "brand": "Ralph Lauren",
+    "shop_url": "https://www.ralphlauren.com"
+  },
+  {
+    "clothing_category": "trousers",
+    "name": "Armani Trousers 34",
+    "description": "A stylish trousers from Armani, perfect for formal and casual occasions.",
+    "price": "235€",
+    "brand": "Armani",
+    "shop_url": "https://www.armani.com"
+  },
+  {
+    "clothing_category": "shirt",
+    "name": "Charles Tyrwhitt Shirt 35",
+    "description": "A stylish shirt from Charles Tyrwhitt, perfect for formal and casual occasions.",
+    "price": "91€",
+    "brand": "Charles Tyrwhitt",
+    "shop_url": "https://www.charlestyrwhitt.com"
+  },
+  {
+    "clothing_category": "blazer",
+    "name": "Zara Blazer 36",
+    "description": "A stylish blazer from Zara, perfect for formal and casual occasions.",
+    "price": "137€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "coat",
+    "name": "Moncler Coat 37",
+    "description": "A stylish coat from Moncler, perfect for formal and casual occasions.",
+    "price": "1310€",
+    "brand": "Moncler",
+    "shop_url": "https://www.moncler.com"
+  },
+  {
+    "clothing_category": "tie",
+    "name": "Zara Tie 38",
+    "description": "A stylish tie from Zara, perfect for formal and casual occasions.",
+    "price": "171€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "shirt",
+    "name": "Uniqlo Shirt 39",
+    "description": "A stylish shirt from Uniqlo, perfect for formal and casual occasions.",
+    "price": "46€",
+    "brand": "Uniqlo",
+    "shop_url": "https://www.uniqlo.com"
+  },
+  {
+    "clothing_category": "watch",
+    "name": "Tissot Watch 40",
+    "description": "A stylish watch from Tissot, perfect for formal and casual occasions.",
+    "price": "6745€",
+    "brand": "Tissot",
+    "shop_url": "https://www.tissotwatches.com"
+  },
+  {
+    "clothing_category": "tie",
+    "name": "Hugo Boss Tie 41",
+    "description": "A stylish tie from Hugo Boss, perfect for formal and casual occasions.",
+    "price": "132€",
+    "brand": "Hugo Boss",
+    "shop_url": "https://www.hugoboss.com"
+  },
+  {
+    "clothing_category": "shirt",
+    "name": "Hugo Boss Shirt 42",
+    "description": "A stylish shirt from Hugo Boss, perfect for formal and casual occasions.",
+    "price": "67€",
+    "brand": "Hugo Boss",
+    "shop_url": "https://www.hugoboss.com"
+  },
+  {
+    "clothing_category": "shoes",
+    "name": "Clarks Shoes 43",
+    "description": "A stylish shoes from Clarks, perfect for formal and casual occasions.",
+    "price": "286€",
+    "brand": "Clarks",
+    "shop_url": "https://www.clarks.com"
+  },
+  {
+    "clothing_category": "jeans",
+    "name": "Armani Jeans 44",
+    "description": "A stylish jeans from Armani, perfect for formal and casual occasions.",
+    "price": "264€",
+    "brand": "Armani",
+    "shop_url": "https://www.armani.com"
+  },
+  {
+    "clothing_category": "watch",
+    "name": "Tissot Watch 45",
+    "description": "A stylish watch from Tissot, perfect for formal and casual occasions.",
+    "price": "6235€",
+    "brand": "Tissot",
+    "shop_url": "https://www.tissotwatches.com"
+  },
+  {
+    "clothing_category": "belt",
+    "name": "Ralph Lauren Belt 46",
+    "description": "A stylish belt from Ralph Lauren, perfect for formal and casual occasions.",
+    "price": "192€",
+    "brand": "Ralph Lauren",
+    "shop_url": "https://www.ralphlauren.com"
+  },
+  {
+    "clothing_category": "scarf",
+    "name": "Louis Vuitton Scarf 47",
+    "description": "A stylish scarf from Louis Vuitton, perfect for formal and casual occasions.",
+    "price": "158€",
+    "brand": "Louis Vuitton",
+    "shop_url": "https://www.louisvuitton.com"
+  },
+  {
+    "clothing_category": "scarf",
+    "name": "Acne Studios Scarf 48",
+    "description": "A stylish scarf from Acne Studios, perfect for formal and casual occasions.",
+    "price": "364€",
+    "brand": "Acne Studios",
+    "shop_url": "https://www.acnestudios.com"
+  },
+  {
+    "clothing_category": "watch",
+    "name": "Tag Heuer Watch 49",
+    "description": "A stylish watch from Tag Heuer, perfect for formal and casual occasions.",
+    "price": "5712€",
+    "brand": "Tag Heuer",
+    "shop_url": "https://www.tagheuer.com"
+  },
+  {
+    "clothing_category": "coat",
+    "name": "Moncler Coat 50",
+    "description": "A stylish coat from Moncler, perfect for formal and casual occasions.",
+    "price": "224€",
+    "brand": "Moncler",
+    "shop_url": "https://www.moncler.com"
+  },
+  {
+    "clothing_category": "scarf",
+    "name": "Zara Scarf 51",
+    "description": "A stylish scarf from Zara, perfect for formal and casual occasions.",
+    "price": "545€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "belt",
+    "name": "Hermès Belt 52",
+    "description": "A stylish belt from Hermès, perfect for formal and casual occasions.",
+    "price": "276€",
+    "brand": "Hermès",
+    "shop_url": "https://www.hermes.com"
+  },
+  {
+    "clothing_category": "polo",
+    "name": "Uniqlo Polo 53",
+    "description": "A stylish polo from Uniqlo, perfect for formal and casual occasions.",
+    "price": "114€",
+    "brand": "Uniqlo",
+    "shop_url": "https://www.uniqlo.com"
+  },
+  {
+    "clothing_category": "watch",
+    "name": "Tag Heuer Watch 54",
+    "description": "A stylish watch from Tag Heuer, perfect for formal and casual occasions.",
+    "price": "1183€",
+    "brand": "Tag Heuer",
+    "shop_url": "https://www.tagheuer.com"
+  },
+  {
+    "clothing_category": "coat",
+    "name": "Mango Coat 55",
+    "description": "A stylish coat from Mango, perfect for formal and casual occasions.",
+    "price": "439€",
+    "brand": "Mango",
+    "shop_url": "https://shop.mango.com"
+  },
+  {
+    "clothing_category": "belt",
+    "name": "Zara Belt 56",
+    "description": "A stylish belt from Zara, perfect for formal and casual occasions.",
+    "price": "374€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "blazer",
+    "name": "Zara Blazer 57",
+    "description": "A stylish blazer from Zara, perfect for formal and casual occasions.",
+    "price": "769€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "belt",
+    "name": "Gucci Belt 58",
+    "description": "A stylish belt from Gucci, perfect for formal and casual occasions.",
+    "price": "333€",
+    "brand": "Gucci",
+    "shop_url": "https://www.gucci.com"
+  },
+  {
+    "clothing_category": "polo",
+    "name": "Tommy Hilfiger Polo 59",
+    "description": "A stylish polo from Tommy Hilfiger, perfect for formal and casual occasions.",
+    "price": "54€",
+    "brand": "Tommy Hilfiger",
+    "shop_url": "https://www.tommy.com"
+  },
+  {
+    "clothing_category": "shirt",
+    "name": "Hugo Boss Shirt 60",
+    "description": "A stylish shirt from Hugo Boss, perfect for formal and casual occasions.",
+    "price": "26€",
+    "brand": "Hugo Boss",
+    "shop_url": "https://www.hugoboss.com"
+  },
+  {
+    "clothing_category": "polo",
+    "name": "Uniqlo Polo 61",
+    "description": "A stylish polo from Uniqlo, perfect for formal and casual occasions.",
+    "price": "60€",
+    "brand": "Uniqlo",
+    "shop_url": "https://www.uniqlo.com"
+  },
+  {
+    "clothing_category": "shoes",
+    "name": "Clarks Shoes 62",
+    "description": "A stylish shoes from Clarks, perfect for formal and casual occasions.",
+    "price": "217€",
+    "brand": "Clarks",
+    "shop_url": "https://www.clarks.com"
+  },
+  {
+    "clothing_category": "trousers",
+    "name": "Zara Trousers 63",
+    "description": "A stylish trousers from Zara, perfect for formal and casual occasions.",
+    "price": "275€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "blazer",
+    "name": "Zara Blazer 64",
+    "description": "A stylish blazer from Zara, perfect for formal and casual occasions.",
+    "price": "599€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "tie",
+    "name": "Hermès Tie 65",
+    "description": "A stylish tie from Hermès, perfect for formal and casual occasions.",
+    "price": "194€",
+    "brand": "Hermès",
+    "shop_url": "https://www.hermes.com"
+  },
+  {
+    "clothing_category": "suit",
+    "name": "Ralph Lauren Suit 66",
+    "description": "A stylish suit from Ralph Lauren, perfect for formal and casual occasions.",
+    "price": "249€",
+    "brand": "Ralph Lauren",
+    "shop_url": "https://www.ralphlauren.com"
+  },
+  {
+    "clothing_category": "shoes",
+    "name": "Allen Edmonds Shoes 67",
+    "description": "A stylish shoes from Allen Edmonds, perfect for formal and casual occasions.",
+    "price": "320€",
+    "brand": "Allen Edmonds",
+    "shop_url": "https://www.allenedmonds.com"
+  },
+  {
+    "clothing_category": "shirt",
+    "name": "Charles Tyrwhitt Shirt 68",
+    "description": "A stylish shirt from Charles Tyrwhitt, perfect for formal and casual occasions.",
+    "price": "50€",
+    "brand": "Charles Tyrwhitt",
+    "shop_url": "https://www.charlestyrwhitt.com"
+  },
+  {
+    "clothing_category": "blazer",
+    "name": "Zara Blazer 69",
+    "description": "A stylish blazer from Zara, perfect for formal and casual occasions.",
+    "price": "759€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "suit",
+    "name": "Zara Suit 70",
+    "description": "A stylish suit from Zara, perfect for formal and casual occasions.",
+    "price": "1061€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "coat",
+    "name": "Zara Coat 71",
+    "description": "A stylish coat from Zara, perfect for formal and casual occasions.",
+    "price": "1297€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "watch",
+    "name": "Casio Watch 72",
+    "description": "A stylish watch from Casio, perfect for formal and casual occasions.",
+    "price": "5015€",
+    "brand": "Casio",
+    "shop_url": "https://www.casio.com"
+  },
+  {
+    "clothing_category": "belt",
+    "name": "Zara Belt 73",
+    "description": "A stylish belt from Zara, perfect for formal and casual occasions.",
+    "price": "174€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "shoes",
+    "name": "Zara Shoes 74",
+    "description": "A stylish shoes from Zara, perfect for formal and casual occasions.",
+    "price": "854€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "coat",
+    "name": "Mango Coat 75",
+    "description": "A stylish coat from Mango, perfect for formal and casual occasions.",
+    "price": "403€",
+    "brand": "Mango",
+    "shop_url": "https://shop.mango.com"
+  },
+  {
+    "clothing_category": "watch",
+    "name": "Tissot Watch 76",
+    "description": "A stylish watch from Tissot, perfect for formal and casual occasions.",
+    "price": "3541€",
+    "brand": "Tissot",
+    "shop_url": "https://www.tissotwatches.com"
+  },
+  {
+    "clothing_category": "watch",
+    "name": "Tag Heuer Watch 77",
+    "description": "A stylish watch from Tag Heuer, perfect for formal and casual occasions.",
+    "price": "2362€",
+    "brand": "Tag Heuer",
+    "shop_url": "https://www.tagheuer.com"
+  },
+  {
+    "clothing_category": "shoes",
+    "name": "Zara Shoes 78",
+    "description": "A stylish shoes from Zara, perfect for formal and casual occasions.",
+    "price": "895€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "coat",
+    "name": "Moncler Coat 79",
+    "description": "A stylish coat from Moncler, perfect for formal and casual occasions.",
+    "price": "1201€",
+    "brand": "Moncler",
+    "shop_url": "https://www.moncler.com"
+  },
+  {
+    "clothing_category": "blazer",
+    "name": "Ralph Lauren Blazer 80",
+    "description": "A stylish blazer from Ralph Lauren, perfect for formal and casual occasions.",
+    "price": "646€",
+    "brand": "Ralph Lauren",
+    "shop_url": "https://www.ralphlauren.com"
+  },
+  {
+    "clothing_category": "shirt",
+    "name": "Hugo Boss Shirt 81",
+    "description": "A stylish shirt from Hugo Boss, perfect for formal and casual occasions.",
+    "price": "41€",
+    "brand": "Hugo Boss",
+    "shop_url": "https://www.hugoboss.com"
+  },
+  {
+    "clothing_category": "blazer",
+    "name": "Armani Blazer 82",
+    "description": "A stylish blazer from Armani, perfect for formal and casual occasions.",
+    "price": "616€",
+    "brand": "Armani",
+    "shop_url": "https://www.armani.com"
+  },
+  {
+    "clothing_category": "scarf",
+    "name": "Burberry Scarf 83",
+    "description": "A stylish scarf from Burberry, perfect for formal and casual occasions.",
+    "price": "309€",
+    "brand": "Burberry",
+    "shop_url": "https://www.burberry.com"
+  },
+  {
+    "clothing_category": "blazer",
+    "name": "Armani Blazer 84",
+    "description": "A stylish blazer from Armani, perfect for formal and casual occasions.",
+    "price": "145€",
+    "brand": "Armani",
+    "shop_url": "https://www.armani.com"
+  },
+  {
+    "clothing_category": "trousers",
+    "name": "Zara Trousers 85",
+    "description": "A stylish trousers from Zara, perfect for formal and casual occasions.",
+    "price": "380€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "belt",
+    "name": "Ralph Lauren Belt 86",
+    "description": "A stylish belt from Ralph Lauren, perfect for formal and casual occasions.",
+    "price": "367€",
+    "brand": "Ralph Lauren",
+    "shop_url": "https://www.ralphlauren.com"
+  },
+  {
+    "clothing_category": "shoes",
+    "name": "Clarks Shoes 87",
+    "description": "A stylish shoes from Clarks, perfect for formal and casual occasions.",
+    "price": "89€",
+    "brand": "Clarks",
+    "shop_url": "https://www.clarks.com"
+  },
+  {
+    "clothing_category": "shoes",
+    "name": "Gucci Shoes 88",
+    "description": "A stylish shoes from Gucci, perfect for formal and casual occasions.",
+    "price": "183€",
+    "brand": "Gucci",
+    "shop_url": "https://www.gucci.com"
+  },
+  {
+    "clothing_category": "suit",
+    "name": "Hugo Boss Suit 89",
+    "description": "A stylish suit from Hugo Boss, perfect for formal and casual occasions.",
+    "price": "629€",
+    "brand": "Hugo Boss",
+    "shop_url": "https://www.hugoboss.com"
+  },
+  {
+    "clothing_category": "tie",
+    "name": "Ralph Lauren Tie 90",
+    "description": "A stylish tie from Ralph Lauren, perfect for formal and casual occasions.",
+    "price": "66€",
+    "brand": "Ralph Lauren",
+    "shop_url": "https://www.ralphlauren.com"
+  },
+  {
+    "clothing_category": "scarf",
+    "name": "Burberry Scarf 91",
+    "description": "A stylish scarf from Burberry, perfect for formal and casual occasions.",
+    "price": "399€",
+    "brand": "Burberry",
+    "shop_url": "https://www.burberry.com"
+  },
+  {
+    "clothing_category": "belt",
+    "name": "Levi’s Belt 92",
+    "description": "A stylish belt from Levi’s, perfect for formal and casual occasions.",
+    "price": "429€",
+    "brand": "Levi’s",
+    "shop_url": "https://www.levi.com"
+  },
+  {
+    "clothing_category": "shoes",
+    "name": "Allen Edmonds Shoes 93",
+    "description": "A stylish shoes from Allen Edmonds, perfect for formal and casual occasions.",
+    "price": "55€",
+    "brand": "Allen Edmonds",
+    "shop_url": "https://www.allenedmonds.com"
+  },
+  {
+    "clothing_category": "tie",
+    "name": "Ralph Lauren Tie 94",
+    "description": "A stylish tie from Ralph Lauren, perfect for formal and casual occasions.",
+    "price": "164€",
+    "brand": "Ralph Lauren",
+    "shop_url": "https://www.ralphlauren.com"
+  },
+  {
+    "clothing_category": "shoes",
+    "name": "Clarks Shoes 95",
+    "description": "A stylish shoes from Clarks, perfect for formal and casual occasions.",
+    "price": "874€",
+    "brand": "Clarks",
+    "shop_url": "https://www.clarks.com"
+  },
+  {
+    "clothing_category": "shirt",
+    "name": "Charles Tyrwhitt Shirt 96",
+    "description": "A stylish shirt from Charles Tyrwhitt, perfect for formal and casual occasions.",
+    "price": "39€",
+    "brand": "Charles Tyrwhitt",
+    "shop_url": "https://www.charlestyrwhitt.com"
+  },
+  {
+    "clothing_category": "blazer",
+    "name": "Ralph Lauren Blazer 97",
+    "description": "A stylish blazer from Ralph Lauren, perfect for formal and casual occasions.",
+    "price": "441€",
+    "brand": "Ralph Lauren",
+    "shop_url": "https://www.ralphlauren.com"
+  },
+  {
+    "clothing_category": "scarf",
+    "name": "Burberry Scarf 98",
+    "description": "A stylish scarf from Burberry, perfect for formal and casual occasions.",
+    "price": "57€",
+    "brand": "Burberry",
+    "shop_url": "https://www.burberry.com"
+  },
+  {
+    "clothing_category": "trousers",
+    "name": "Hugo Boss Trousers 99",
+    "description": "A stylish trousers from Hugo Boss, perfect for formal and casual occasions.",
+    "price": "262€",
+    "brand": "Hugo Boss",
+    "shop_url": "https://www.hugoboss.com"
+  },
+  {
+    "clothing_category": "watch",
+    "name": "Rolex Watch 100",
+    "description": "A stylish watch from Rolex, perfect for formal and casual occasions.",
+    "price": "4094€",
+    "brand": "Rolex",
+    "shop_url": "https://www.fashion.com"
+  },
+  {
+    "clothing_category": "tie",
+    "name": "Hackett Tie 101",
+    "description": "A stylish tie from Hackett, perfect for formal and casual occasions.",
+    "price": "168€",
+    "brand": "Hackett",
+    "shop_url": "https://www.hackett.com"
+  },
+  {
+    "clothing_category": "jeans",
+    "name": "Armani Jeans 102",
+    "description": "A stylish jeans from Armani, perfect for formal and casual occasions.",
+    "price": "281€",
+    "brand": "Armani",
+    "shop_url": "https://www.armani.com"
+  },
+  {
+    "clothing_category": "trousers",
+    "name": "Levi’s Trousers 103",
+    "description": "A stylish trousers from Levi’s, perfect for formal and casual occasions.",
+    "price": "349€",
+    "brand": "Levi’s",
+    "shop_url": "https://www.levi.com"
+  },
+  {
+    "clothing_category": "belt",
+    "name": "Zara Belt 104",
+    "description": "A stylish belt from Zara, perfect for formal and casual occasions.",
+    "price": "389€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "blazer",
+    "name": "Hugo Boss Blazer 105",
+    "description": "A stylish blazer from Hugo Boss, perfect for formal and casual occasions.",
+    "price": "648€",
+    "brand": "Hugo Boss",
+    "shop_url": "https://www.hugoboss.com"
+  },
+  {
+    "clothing_category": "shoes",
+    "name": "Clarks Shoes 106",
+    "description": "A stylish shoes from Clarks, perfect for formal and casual occasions.",
+    "price": "309€",
+    "brand": "Clarks",
+    "shop_url": "https://www.clarks.com"
+  },
+  {
+    "clothing_category": "shirt",
+    "name": "Zara Shirt 107",
+    "description": "A stylish shirt from Zara, perfect for formal and casual occasions.",
+    "price": "124€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "trousers",
+    "name": "Hugo Boss Trousers 108",
+    "description": "A stylish trousers from Hugo Boss, perfect for formal and casual occasions.",
+    "price": "94€",
+    "brand": "Hugo Boss",
+    "shop_url": "https://www.hugoboss.com"
+  },
+  {
+    "clothing_category": "blazer",
+    "name": "Hugo Boss Blazer 109",
+    "description": "A stylish blazer from Hugo Boss, perfect for formal and casual occasions.",
+    "price": "176€",
+    "brand": "Hugo Boss",
+    "shop_url": "https://www.hugoboss.com"
+  },
+  {
+    "clothing_category": "jeans",
+    "name": "Diesel Jeans 110",
+    "description": "A stylish jeans from Diesel, perfect for formal and casual occasions.",
+    "price": "193€",
+    "brand": "Diesel",
+    "shop_url": "https://global.diesel.com"
+  },
+  {
+    "clothing_category": "suit",
+    "name": "Zara Suit 111",
+    "description": "A stylish suit from Zara, perfect for formal and casual occasions.",
+    "price": "885€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "trousers",
+    "name": "Armani Trousers 112",
+    "description": "A stylish trousers from Armani, perfect for formal and casual occasions.",
+    "price": "64€",
+    "brand": "Armani",
+    "shop_url": "https://www.armani.com"
+  },
+  {
+    "clothing_category": "scarf",
+    "name": "Burberry Scarf 113",
+    "description": "A stylish scarf from Burberry, perfect for formal and casual occasions.",
+    "price": "159€",
+    "brand": "Burberry",
+    "shop_url": "https://www.burberry.com"
+  },
+  {
+    "clothing_category": "jeans",
+    "name": "Levi’s Jeans 114",
+    "description": "A stylish jeans from Levi’s, perfect for formal and casual occasions.",
+    "price": "98€",
+    "brand": "Levi’s",
+    "shop_url": "https://www.levi.com"
+  },
+  {
+    "clothing_category": "blazer",
+    "name": "Armani Blazer 115",
+    "description": "A stylish blazer from Armani, perfect for formal and casual occasions.",
+    "price": "195€",
+    "brand": "Armani",
+    "shop_url": "https://www.armani.com"
+  },
+  {
+    "clothing_category": "tie",
+    "name": "Hermès Tie 116",
+    "description": "A stylish tie from Hermès, perfect for formal and casual occasions.",
+    "price": "198€",
+    "brand": "Hermès",
+    "shop_url": "https://www.hermes.com"
+  },
+  {
+    "clothing_category": "polo",
+    "name": "Lacoste Polo 117",
+    "description": "A stylish polo from Lacoste, perfect for formal and casual occasions.",
+    "price": "52€",
+    "brand": "Lacoste",
+    "shop_url": "https://www.lacoste.com"
+  },
+  {
+    "clothing_category": "shirt",
+    "name": "Charles Tyrwhitt Shirt 118",
+    "description": "A stylish shirt from Charles Tyrwhitt, perfect for formal and casual occasions.",
+    "price": "96€",
+    "brand": "Charles Tyrwhitt",
+    "shop_url": "https://www.charlestyrwhitt.com"
+  },
+  {
+    "clothing_category": "trousers",
+    "name": "Armani Trousers 119",
+    "description": "A stylish trousers from Armani, perfect for formal and casual occasions.",
+    "price": "305€",
+    "brand": "Armani",
+    "shop_url": "https://www.armani.com"
+  },
+  {
+    "clothing_category": "coat",
+    "name": "Canada Goose Coat 120",
+    "description": "A stylish coat from Canada Goose, perfect for formal and casual occasions.",
+    "price": "1165€",
+    "brand": "Canada Goose",
+    "shop_url": "https://www.canadagoose.com"
+  },
+  {
+    "clothing_category": "trousers",
+    "name": "Zara Trousers 121",
+    "description": "A stylish trousers from Zara, perfect for formal and casual occasions.",
+    "price": "251€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "belt",
+    "name": "Ralph Lauren Belt 122",
+    "description": "A stylish belt from Ralph Lauren, perfect for formal and casual occasions.",
+    "price": "125€",
+    "brand": "Ralph Lauren",
+    "shop_url": "https://www.ralphlauren.com"
+  },
+  {
+    "clothing_category": "blazer",
+    "name": "Hugo Boss Blazer 123",
+    "description": "A stylish blazer from Hugo Boss, perfect for formal and casual occasions.",
+    "price": "252€",
+    "brand": "Hugo Boss",
+    "shop_url": "https://www.hugoboss.com"
+  },
+  {
+    "clothing_category": "jeans",
+    "name": "Diesel Jeans 124",
+    "description": "A stylish jeans from Diesel, perfect for formal and casual occasions.",
+    "price": "270€",
+    "brand": "Diesel",
+    "shop_url": "https://global.diesel.com"
+  },
+  {
+    "clothing_category": "shoes",
+    "name": "Gucci Shoes 125",
+    "description": "A stylish shoes from Gucci, perfect for formal and casual occasions.",
+    "price": "744€",
+    "brand": "Gucci",
+    "shop_url": "https://www.gucci.com"
+  },
+  {
+    "clothing_category": "belt",
+    "name": "Zara Belt 126",
+    "description": "A stylish belt from Zara, perfect for formal and casual occasions.",
+    "price": "384€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "watch",
+    "name": "Casio Watch 127",
+    "description": "A stylish watch from Casio, perfect for formal and casual occasions.",
+    "price": "2336€",
+    "brand": "Casio",
+    "shop_url": "https://www.casio.com"
+  },
+  {
+    "clothing_category": "shirt",
+    "name": "Brooks Brothers Shirt 128",
+    "description": "A stylish shirt from Brooks Brothers, perfect for formal and casual occasions.",
+    "price": "138€",
+    "brand": "Brooks Brothers",
+    "shop_url": "https://www.brooksbrothers.com"
+  },
+  {
+    "clothing_category": "trousers",
+    "name": "Uniqlo Trousers 129",
+    "description": "A stylish trousers from Uniqlo, perfect for formal and casual occasions.",
+    "price": "238€",
+    "brand": "Uniqlo",
+    "shop_url": "https://www.uniqlo.com"
+  },
+  {
+    "clothing_category": "coat",
+    "name": "Zara Coat 130",
+    "description": "A stylish coat from Zara, perfect for formal and casual occasions.",
+    "price": "869€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "blazer",
+    "name": "Tommy Hilfiger Blazer 131",
+    "description": "A stylish blazer from Tommy Hilfiger, perfect for formal and casual occasions.",
+    "price": "257€",
+    "brand": "Tommy Hilfiger",
+    "shop_url": "https://www.tommy.com"
+  },
+  {
+    "clothing_category": "scarf",
+    "name": "Louis Vuitton Scarf 132",
+    "description": "A stylish scarf from Louis Vuitton, perfect for formal and casual occasions.",
+    "price": "354€",
+    "brand": "Louis Vuitton",
+    "shop_url": "https://www.louisvuitton.com"
+  },
+  {
+    "clothing_category": "jeans",
+    "name": "Levi’s Jeans 133",
+    "description": "A stylish jeans from Levi’s, perfect for formal and casual occasions.",
+    "price": "130€",
+    "brand": "Levi’s",
+    "shop_url": "https://www.levi.com"
+  },
+  {
+    "clothing_category": "coat",
+    "name": "Zara Coat 134",
+    "description": "A stylish coat from Zara, perfect for formal and casual occasions.",
+    "price": "253€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "tie",
+    "name": "Hugo Boss Tie 135",
+    "description": "A stylish tie from Hugo Boss, perfect for formal and casual occasions.",
+    "price": "164€",
+    "brand": "Hugo Boss",
+    "shop_url": "https://www.hugoboss.com"
+  },
+  {
+    "clothing_category": "polo",
+    "name": "Lacoste Polo 136",
+    "description": "A stylish polo from Lacoste, perfect for formal and casual occasions.",
+    "price": "63€",
+    "brand": "Lacoste",
+    "shop_url": "https://www.lacoste.com"
+  },
+  {
+    "clothing_category": "tie",
+    "name": "Hackett Tie 137",
+    "description": "A stylish tie from Hackett, perfect for formal and casual occasions.",
+    "price": "90€",
+    "brand": "Hackett",
+    "shop_url": "https://www.hackett.com"
+  },
+  {
+    "clothing_category": "scarf",
+    "name": "Zara Scarf 138",
+    "description": "A stylish scarf from Zara, perfect for formal and casual occasions.",
+    "price": "182€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "shirt",
+    "name": "Zara Shirt 139",
+    "description": "A stylish shirt from Zara, perfect for formal and casual occasions.",
+    "price": "40€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "trousers",
+    "name": "Hugo Boss Trousers 140",
+    "description": "A stylish trousers from Hugo Boss, perfect for formal and casual occasions.",
+    "price": "316€",
+    "brand": "Hugo Boss",
+    "shop_url": "https://www.hugoboss.com"
+  },
+  {
+    "clothing_category": "blazer",
+    "name": "Zara Blazer 141",
+    "description": "A stylish blazer from Zara, perfect for formal and casual occasions.",
+    "price": "311€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "jeans",
+    "name": "Armani Jeans 142",
+    "description": "A stylish jeans from Armani, perfect for formal and casual occasions.",
+    "price": "107€",
+    "brand": "Armani",
+    "shop_url": "https://www.armani.com"
+  },
+  {
+    "clothing_category": "jeans",
+    "name": "Armani Jeans 143",
+    "description": "A stylish jeans from Armani, perfect for formal and casual occasions.",
+    "price": "230€",
+    "brand": "Armani",
+    "shop_url": "https://www.armani.com"
+  },
+  {
+    "clothing_category": "coat",
+    "name": "Zara Coat 144",
+    "description": "A stylish coat from Zara, perfect for formal and casual occasions.",
+    "price": "238€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "scarf",
+    "name": "Zara Scarf 145",
+    "description": "A stylish scarf from Zara, perfect for formal and casual occasions.",
+    "price": "27€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "watch",
+    "name": "Rolex Watch 146",
+    "description": "A stylish watch from Rolex, perfect for formal and casual occasions.",
+    "price": "2606€",
+    "brand": "Rolex",
+    "shop_url": "https://www.fashion.com"
+  },
+  {
+    "clothing_category": "suit",
+    "name": "Ralph Lauren Suit 147",
+    "description": "A stylish suit from Ralph Lauren, perfect for formal and casual occasions.",
+    "price": "942€",
+    "brand": "Ralph Lauren",
+    "shop_url": "https://www.ralphlauren.com"
+  },
+  {
+    "clothing_category": "suit",
+    "name": "Zara Suit 148",
+    "description": "A stylish suit from Zara, perfect for formal and casual occasions.",
+    "price": "588€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "watch",
+    "name": "Casio Watch 149",
+    "description": "A stylish watch from Casio, perfect for formal and casual occasions.",
+    "price": "6584€",
+    "brand": "Casio",
+    "shop_url": "https://www.casio.com"
+  },
+  {
+    "clothing_category": "scarf",
+    "name": "Louis Vuitton Scarf 150",
+    "description": "A stylish scarf from Louis Vuitton, perfect for formal and casual occasions.",
+    "price": "204€",
+    "brand": "Louis Vuitton",
+    "shop_url": "https://www.louisvuitton.com"
+  },
+  {
+    "clothing_category": "suit",
+    "name": "Armani Suit 151",
+    "description": "A stylish suit from Armani, perfect for formal and casual occasions.",
+    "price": "874€",
+    "brand": "Armani",
+    "shop_url": "https://www.armani.com"
+  },
+  {
+    "clothing_category": "polo",
+    "name": "Lacoste Polo 152",
+    "description": "A stylish polo from Lacoste, perfect for formal and casual occasions.",
+    "price": "117€",
+    "brand": "Lacoste",
+    "shop_url": "https://www.lacoste.com"
+  },
+  {
+    "clothing_category": "coat",
+    "name": "Moncler Coat 153",
+    "description": "A stylish coat from Moncler, perfect for formal and casual occasions.",
+    "price": "1236€",
+    "brand": "Moncler",
+    "shop_url": "https://www.moncler.com"
+  },
+  {
+    "clothing_category": "trousers",
+    "name": "Hugo Boss Trousers 154",
+    "description": "A stylish trousers from Hugo Boss, perfect for formal and casual occasions.",
+    "price": "124€",
+    "brand": "Hugo Boss",
+    "shop_url": "https://www.hugoboss.com"
+  },
+  {
+    "clothing_category": "tie",
+    "name": "Hugo Boss Tie 155",
+    "description": "A stylish tie from Hugo Boss, perfect for formal and casual occasions.",
+    "price": "147€",
+    "brand": "Hugo Boss",
+    "shop_url": "https://www.hugoboss.com"
+  },
+  {
+    "clothing_category": "watch",
+    "name": "Seiko Watch 156",
+    "description": "A stylish watch from Seiko, perfect for formal and casual occasions.",
+    "price": "3511€",
+    "brand": "Seiko",
+    "shop_url": "https://www.seikowatches.com"
+  },
+  {
+    "clothing_category": "scarf",
+    "name": "Uniqlo Scarf 157",
+    "description": "A stylish scarf from Uniqlo, perfect for formal and casual occasions.",
+    "price": "90€",
+    "brand": "Uniqlo",
+    "shop_url": "https://www.uniqlo.com"
+  },
+  {
+    "clothing_category": "suit",
+    "name": "Massimo Dutti Suit 158",
+    "description": "A stylish suit from Massimo Dutti, perfect for formal and casual occasions.",
+    "price": "929€",
+    "brand": "Massimo Dutti",
+    "shop_url": "https://www.fashion.com"
+  },
+  {
+    "clothing_category": "jeans",
+    "name": "Armani Jeans 159",
+    "description": "A stylish jeans from Armani, perfect for formal and casual occasions.",
+    "price": "135€",
+    "brand": "Armani",
+    "shop_url": "https://www.armani.com"
+  },
+  {
+    "clothing_category": "trousers",
+    "name": "Uniqlo Trousers 160",
+    "description": "A stylish trousers from Uniqlo, perfect for formal and casual occasions.",
+    "price": "214€",
+    "brand": "Uniqlo",
+    "shop_url": "https://www.uniqlo.com"
+  },
+  {
+    "clothing_category": "belt",
+    "name": "Zara Belt 161",
+    "description": "A stylish belt from Zara, perfect for formal and casual occasions.",
+    "price": "55€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "shoes",
+    "name": "Church's Shoes 162",
+    "description": "A stylish shoes from Church's, perfect for formal and casual occasions.",
+    "price": "876€",
+    "brand": "Church's",
+    "shop_url": "https://www.church-footwear.com"
+  },
+  {
+    "clothing_category": "trousers",
+    "name": "Armani Trousers 163",
+    "description": "A stylish trousers from Armani, perfect for formal and casual occasions.",
+    "price": "57€",
+    "brand": "Armani",
+    "shop_url": "https://www.armani.com"
+  },
+  {
+    "clothing_category": "coat",
+    "name": "Burberry Coat 164",
+    "description": "A stylish coat from Burberry, perfect for formal and casual occasions.",
+    "price": "1374€",
+    "brand": "Burberry",
+    "shop_url": "https://www.burberry.com"
+  },
+  {
+    "clothing_category": "suit",
+    "name": "Hugo Boss Suit 165",
+    "description": "A stylish suit from Hugo Boss, perfect for formal and casual occasions.",
+    "price": "511€",
+    "brand": "Hugo Boss",
+    "shop_url": "https://www.hugoboss.com"
+  },
+  {
+    "clothing_category": "watch",
+    "name": "Seiko Watch 166",
+    "description": "A stylish watch from Seiko, perfect for formal and casual occasions.",
+    "price": "4060€",
+    "brand": "Seiko",
+    "shop_url": "https://www.seikowatches.com"
+  },
+  {
+    "clothing_category": "watch",
+    "name": "Rolex Watch 167",
+    "description": "A stylish watch from Rolex, perfect for formal and casual occasions.",
+    "price": "5051€",
+    "brand": "Rolex",
+    "shop_url": "https://www.fashion.com"
+  },
+  {
+    "clothing_category": "watch",
+    "name": "Casio Watch 168",
+    "description": "A stylish watch from Casio, perfect for formal and casual occasions.",
+    "price": "5335€",
+    "brand": "Casio",
+    "shop_url": "https://www.casio.com"
+  },
+  {
+    "clothing_category": "tie",
+    "name": "Hackett Tie 169",
+    "description": "A stylish tie from Hackett, perfect for formal and casual occasions.",
+    "price": "249€",
+    "brand": "Hackett",
+    "shop_url": "https://www.hackett.com"
+  },
+  {
+    "clothing_category": "jeans",
+    "name": "Levi’s Jeans 170",
+    "description": "A stylish jeans from Levi’s, perfect for formal and casual occasions.",
+    "price": "51€",
+    "brand": "Levi’s",
+    "shop_url": "https://www.levi.com"
+  },
+  {
+    "clothing_category": "coat",
+    "name": "Moncler Coat 171",
+    "description": "A stylish coat from Moncler, perfect for formal and casual occasions.",
+    "price": "935€",
+    "brand": "Moncler",
+    "shop_url": "https://www.moncler.com"
+  },
+  {
+    "clothing_category": "watch",
+    "name": "Rolex Watch 172",
+    "description": "A stylish watch from Rolex, perfect for formal and casual occasions.",
+    "price": "7551€",
+    "brand": "Rolex",
+    "shop_url": "https://www.fashion.com"
+  },
+  {
+    "clothing_category": "polo",
+    "name": "Lacoste Polo 173",
+    "description": "A stylish polo from Lacoste, perfect for formal and casual occasions.",
+    "price": "33€",
+    "brand": "Lacoste",
+    "shop_url": "https://www.lacoste.com"
+  },
+  {
+    "clothing_category": "scarf",
+    "name": "Burberry Scarf 174",
+    "description": "A stylish scarf from Burberry, perfect for formal and casual occasions.",
+    "price": "86€",
+    "brand": "Burberry",
+    "shop_url": "https://www.burberry.com"
+  },
+  {
+    "clothing_category": "shirt",
+    "name": "Brooks Brothers Shirt 175",
+    "description": "A stylish shirt from Brooks Brothers, perfect for formal and casual occasions.",
+    "price": "138€",
+    "brand": "Brooks Brothers",
+    "shop_url": "https://www.brooksbrothers.com"
+  },
+  {
+    "clothing_category": "shoes",
+    "name": "Church's Shoes 176",
+    "description": "A stylish shoes from Church's, perfect for formal and casual occasions.",
+    "price": "493€",
+    "brand": "Church's",
+    "shop_url": "https://www.church-footwear.com"
+  },
+  {
+    "clothing_category": "shoes",
+    "name": "Church's Shoes 177",
+    "description": "A stylish shoes from Church's, perfect for formal and casual occasions.",
+    "price": "792€",
+    "brand": "Church's",
+    "shop_url": "https://www.church-footwear.com"
+  },
+  {
+    "clothing_category": "polo",
+    "name": "Ralph Lauren Polo 178",
+    "description": "A stylish polo from Ralph Lauren, perfect for formal and casual occasions.",
+    "price": "52€",
+    "brand": "Ralph Lauren",
+    "shop_url": "https://www.ralphlauren.com"
+  },
+  {
+    "clothing_category": "coat",
+    "name": "Mango Coat 179",
+    "description": "A stylish coat from Mango, perfect for formal and casual occasions.",
+    "price": "186€",
+    "brand": "Mango",
+    "shop_url": "https://shop.mango.com"
+  },
+  {
+    "clothing_category": "shoes",
+    "name": "Church's Shoes 180",
+    "description": "A stylish shoes from Church's, perfect for formal and casual occasions.",
+    "price": "146€",
+    "brand": "Church's",
+    "shop_url": "https://www.church-footwear.com"
+  },
+  {
+    "clothing_category": "trousers",
+    "name": "Levi’s Trousers 181",
+    "description": "A stylish trousers from Levi’s, perfect for formal and casual occasions.",
+    "price": "292€",
+    "brand": "Levi’s",
+    "shop_url": "https://www.levi.com"
+  },
+  {
+    "clothing_category": "shoes",
+    "name": "Gucci Shoes 182",
+    "description": "A stylish shoes from Gucci, perfect for formal and casual occasions.",
+    "price": "660€",
+    "brand": "Gucci",
+    "shop_url": "https://www.gucci.com"
+  },
+  {
+    "clothing_category": "shirt",
+    "name": "Uniqlo Shirt 183",
+    "description": "A stylish shirt from Uniqlo, perfect for formal and casual occasions.",
+    "price": "85€",
+    "brand": "Uniqlo",
+    "shop_url": "https://www.uniqlo.com"
+  },
+  {
+    "clothing_category": "scarf",
+    "name": "Louis Vuitton Scarf 184",
+    "description": "A stylish scarf from Louis Vuitton, perfect for formal and casual occasions.",
+    "price": "456€",
+    "brand": "Louis Vuitton",
+    "shop_url": "https://www.louisvuitton.com"
+  },
+  {
+    "clothing_category": "coat",
+    "name": "Mango Coat 185",
+    "description": "A stylish coat from Mango, perfect for formal and casual occasions.",
+    "price": "885€",
+    "brand": "Mango",
+    "shop_url": "https://shop.mango.com"
+  },
+  {
+    "clothing_category": "coat",
+    "name": "Zara Coat 186",
+    "description": "A stylish coat from Zara, perfect for formal and casual occasions.",
+    "price": "993€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "belt",
+    "name": "Zara Belt 187",
+    "description": "A stylish belt from Zara, perfect for formal and casual occasions.",
+    "price": "216€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "jeans",
+    "name": "Armani Jeans 188",
+    "description": "A stylish jeans from Armani, perfect for formal and casual occasions.",
+    "price": "221€",
+    "brand": "Armani",
+    "shop_url": "https://www.armani.com"
+  },
+  {
+    "clothing_category": "coat",
+    "name": "Zara Coat 189",
+    "description": "A stylish coat from Zara, perfect for formal and casual occasions.",
+    "price": "363€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "tie",
+    "name": "Ralph Lauren Tie 190",
+    "description": "A stylish tie from Ralph Lauren, perfect for formal and casual occasions.",
+    "price": "203€",
+    "brand": "Ralph Lauren",
+    "shop_url": "https://www.ralphlauren.com"
+  },
+  {
+    "clothing_category": "trousers",
+    "name": "Zara Trousers 191",
+    "description": "A stylish trousers from Zara, perfect for formal and casual occasions.",
+    "price": "260€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "suit",
+    "name": "Massimo Dutti Suit 192",
+    "description": "A stylish suit from Massimo Dutti, perfect for formal and casual occasions.",
+    "price": "904€",
+    "brand": "Massimo Dutti",
+    "shop_url": "https://www.fashion.com"
+  },
+  {
+    "clothing_category": "polo",
+    "name": "Zara Polo 193",
+    "description": "A stylish polo from Zara, perfect for formal and casual occasions.",
+    "price": "100€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "coat",
+    "name": "Zara Coat 194",
+    "description": "A stylish coat from Zara, perfect for formal and casual occasions.",
+    "price": "551€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "trousers",
+    "name": "Uniqlo Trousers 195",
+    "description": "A stylish trousers from Uniqlo, perfect for formal and casual occasions.",
+    "price": "270€",
+    "brand": "Uniqlo",
+    "shop_url": "https://www.uniqlo.com"
+  },
+  {
+    "clothing_category": "watch",
+    "name": "Rolex Watch 196",
+    "description": "A stylish watch from Rolex, perfect for formal and casual occasions.",
+    "price": "4319€",
+    "brand": "Rolex",
+    "shop_url": "https://www.fashion.com"
+  },
+  {
+    "clothing_category": "jeans",
+    "name": "Wrangler Jeans 197",
+    "description": "A stylish jeans from Wrangler, perfect for formal and casual occasions.",
+    "price": "189€",
+    "brand": "Wrangler",
+    "shop_url": "https://www.wrangler.com"
+  },
+  {
+    "clothing_category": "shirt",
+    "name": "Uniqlo Shirt 198",
+    "description": "A stylish shirt from Uniqlo, perfect for formal and casual occasions.",
+    "price": "126€",
+    "brand": "Uniqlo",
+    "shop_url": "https://www.uniqlo.com"
+  },
+  {
+    "clothing_category": "polo",
+    "name": "Uniqlo Polo 199",
+    "description": "A stylish polo from Uniqlo, perfect for formal and casual occasions.",
+    "price": "121€",
+    "brand": "Uniqlo",
+    "shop_url": "https://www.uniqlo.com"
+  },
+  {
+    "clothing_category": "shoes",
+    "name": "Zara Shoes 200",
+    "description": "A stylish shoes from Zara, perfect for formal and casual occasions.",
+    "price": "236€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "belt",
+    "name": "Hermès Belt 201",
+    "description": "A stylish belt from Hermès, perfect for formal and casual occasions.",
+    "price": "436€",
+    "brand": "Hermès",
+    "shop_url": "https://www.hermes.com"
+  },
+  {
+    "clothing_category": "trousers",
+    "name": "Hugo Boss Trousers 202",
+    "description": "A stylish trousers from Hugo Boss, perfect for formal and casual occasions.",
+    "price": "32€",
+    "brand": "Hugo Boss",
+    "shop_url": "https://www.hugoboss.com"
+  },
+  {
+    "clothing_category": "suit",
+    "name": "Hugo Boss Suit 203",
+    "description": "A stylish suit from Hugo Boss, perfect for formal and casual occasions.",
+    "price": "285€",
+    "brand": "Hugo Boss",
+    "shop_url": "https://www.hugoboss.com"
+  },
+  {
+    "clothing_category": "scarf",
+    "name": "Uniqlo Scarf 204",
+    "description": "A stylish scarf from Uniqlo, perfect for formal and casual occasions.",
+    "price": "330€",
+    "brand": "Uniqlo",
+    "shop_url": "https://www.uniqlo.com"
+  },
+  {
+    "clothing_category": "tie",
+    "name": "Hugo Boss Tie 205",
+    "description": "A stylish tie from Hugo Boss, perfect for formal and casual occasions.",
+    "price": "59€",
+    "brand": "Hugo Boss",
+    "shop_url": "https://www.hugoboss.com"
+  },
+  {
+    "clothing_category": "shoes",
+    "name": "Allen Edmonds Shoes 206",
+    "description": "A stylish shoes from Allen Edmonds, perfect for formal and casual occasions.",
+    "price": "117€",
+    "brand": "Allen Edmonds",
+    "shop_url": "https://www.allenedmonds.com"
+  },
+  {
+    "clothing_category": "blazer",
+    "name": "Zara Blazer 207",
+    "description": "A stylish blazer from Zara, perfect for formal and casual occasions.",
+    "price": "183€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "trousers",
+    "name": "Zara Trousers 208",
+    "description": "A stylish trousers from Zara, perfect for formal and casual occasions.",
+    "price": "133€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "watch",
+    "name": "Tag Heuer Watch 209",
+    "description": "A stylish watch from Tag Heuer, perfect for formal and casual occasions.",
+    "price": "7116€",
+    "brand": "Tag Heuer",
+    "shop_url": "https://www.tagheuer.com"
+  },
+  {
+    "clothing_category": "watch",
+    "name": "Tag Heuer Watch 210",
+    "description": "A stylish watch from Tag Heuer, perfect for formal and casual occasions.",
+    "price": "1199€",
+    "brand": "Tag Heuer",
+    "shop_url": "https://www.tagheuer.com"
+  },
+  {
+    "clothing_category": "coat",
+    "name": "Mango Coat 211",
+    "description": "A stylish coat from Mango, perfect for formal and casual occasions.",
+    "price": "1025€",
+    "brand": "Mango",
+    "shop_url": "https://shop.mango.com"
+  },
+  {
+    "clothing_category": "blazer",
+    "name": "Ralph Lauren Blazer 212",
+    "description": "A stylish blazer from Ralph Lauren, perfect for formal and casual occasions.",
+    "price": "551€",
+    "brand": "Ralph Lauren",
+    "shop_url": "https://www.ralphlauren.com"
+  },
+  {
+    "clothing_category": "belt",
+    "name": "Ralph Lauren Belt 213",
+    "description": "A stylish belt from Ralph Lauren, perfect for formal and casual occasions.",
+    "price": "333€",
+    "brand": "Ralph Lauren",
+    "shop_url": "https://www.ralphlauren.com"
+  },
+  {
+    "clothing_category": "tie",
+    "name": "Hermès Tie 214",
+    "description": "A stylish tie from Hermès, perfect for formal and casual occasions.",
+    "price": "111€",
+    "brand": "Hermès",
+    "shop_url": "https://www.hermes.com"
+  },
+  {
+    "clothing_category": "blazer",
+    "name": "Tommy Hilfiger Blazer 215",
+    "description": "A stylish blazer from Tommy Hilfiger, perfect for formal and casual occasions.",
+    "price": "117€",
+    "brand": "Tommy Hilfiger",
+    "shop_url": "https://www.tommy.com"
+  },
+  {
+    "clothing_category": "scarf",
+    "name": "Uniqlo Scarf 216",
+    "description": "A stylish scarf from Uniqlo, perfect for formal and casual occasions.",
+    "price": "288€",
+    "brand": "Uniqlo",
+    "shop_url": "https://www.uniqlo.com"
+  },
+  {
+    "clothing_category": "scarf",
+    "name": "Zara Scarf 217",
+    "description": "A stylish scarf from Zara, perfect for formal and casual occasions.",
+    "price": "252€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "belt",
+    "name": "Zara Belt 218",
+    "description": "A stylish belt from Zara, perfect for formal and casual occasions.",
+    "price": "48€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "coat",
+    "name": "Burberry Coat 219",
+    "description": "A stylish coat from Burberry, perfect for formal and casual occasions.",
+    "price": "642€",
+    "brand": "Burberry",
+    "shop_url": "https://www.burberry.com"
+  },
+  {
+    "clothing_category": "belt",
+    "name": "Zara Belt 220",
+    "description": "A stylish belt from Zara, perfect for formal and casual occasions.",
+    "price": "366€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "coat",
+    "name": "Moncler Coat 221",
+    "description": "A stylish coat from Moncler, perfect for formal and casual occasions.",
+    "price": "1284€",
+    "brand": "Moncler",
+    "shop_url": "https://www.moncler.com"
+  },
+  {
+    "clothing_category": "trousers",
+    "name": "Armani Trousers 222",
+    "description": "A stylish trousers from Armani, perfect for formal and casual occasions.",
+    "price": "294€",
+    "brand": "Armani",
+    "shop_url": "https://www.armani.com"
+  },
+  {
+    "clothing_category": "shoes",
+    "name": "Clarks Shoes 223",
+    "description": "A stylish shoes from Clarks, perfect for formal and casual occasions.",
+    "price": "132€",
+    "brand": "Clarks",
+    "shop_url": "https://www.clarks.com"
+  },
+  {
+    "clothing_category": "suit",
+    "name": "Zara Suit 224",
+    "description": "A stylish suit from Zara, perfect for formal and casual occasions.",
+    "price": "829€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "shirt",
+    "name": "Brooks Brothers Shirt 225",
+    "description": "A stylish shirt from Brooks Brothers, perfect for formal and casual occasions.",
+    "price": "68€",
+    "brand": "Brooks Brothers",
+    "shop_url": "https://www.brooksbrothers.com"
+  },
+  {
+    "clothing_category": "trousers",
+    "name": "Zara Trousers 226",
+    "description": "A stylish trousers from Zara, perfect for formal and casual occasions.",
+    "price": "309€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "blazer",
+    "name": "Tommy Hilfiger Blazer 227",
+    "description": "A stylish blazer from Tommy Hilfiger, perfect for formal and casual occasions.",
+    "price": "487€",
+    "brand": "Tommy Hilfiger",
+    "shop_url": "https://www.tommy.com"
+  },
+  {
+    "clothing_category": "jeans",
+    "name": "Armani Jeans 228",
+    "description": "A stylish jeans from Armani, perfect for formal and casual occasions.",
+    "price": "229€",
+    "brand": "Armani",
+    "shop_url": "https://www.armani.com"
+  },
+  {
+    "clothing_category": "tie",
+    "name": "Ralph Lauren Tie 229",
+    "description": "A stylish tie from Ralph Lauren, perfect for formal and casual occasions.",
+    "price": "200€",
+    "brand": "Ralph Lauren",
+    "shop_url": "https://www.ralphlauren.com"
+  },
+  {
+    "clothing_category": "blazer",
+    "name": "Zara Blazer 230",
+    "description": "A stylish blazer from Zara, perfect for formal and casual occasions.",
+    "price": "701€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "jeans",
+    "name": "Diesel Jeans 231",
+    "description": "A stylish jeans from Diesel, perfect for formal and casual occasions.",
+    "price": "193€",
+    "brand": "Diesel",
+    "shop_url": "https://global.diesel.com"
+  },
+  {
+    "clothing_category": "coat",
+    "name": "Canada Goose Coat 232",
+    "description": "A stylish coat from Canada Goose, perfect for formal and casual occasions.",
+    "price": "185€",
+    "brand": "Canada Goose",
+    "shop_url": "https://www.canadagoose.com"
+  },
+  {
+    "clothing_category": "watch",
+    "name": "Casio Watch 233",
+    "description": "A stylish watch from Casio, perfect for formal and casual occasions.",
+    "price": "2067€",
+    "brand": "Casio",
+    "shop_url": "https://www.casio.com"
+  },
+  {
+    "clothing_category": "trousers",
+    "name": "Hugo Boss Trousers 234",
+    "description": "A stylish trousers from Hugo Boss, perfect for formal and casual occasions.",
+    "price": "326€",
+    "brand": "Hugo Boss",
+    "shop_url": "https://www.hugoboss.com"
+  },
+  {
+    "clothing_category": "polo",
+    "name": "Zara Polo 235",
+    "description": "A stylish polo from Zara, perfect for formal and casual occasions.",
+    "price": "147€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "jeans",
+    "name": "Armani Jeans 236",
+    "description": "A stylish jeans from Armani, perfect for formal and casual occasions.",
+    "price": "115€",
+    "brand": "Armani",
+    "shop_url": "https://www.armani.com"
+  },
+  {
+    "clothing_category": "jeans",
+    "name": "Wrangler Jeans 237",
+    "description": "A stylish jeans from Wrangler, perfect for formal and casual occasions.",
+    "price": "114€",
+    "brand": "Wrangler",
+    "shop_url": "https://www.wrangler.com"
+  },
+  {
+    "clothing_category": "polo",
+    "name": "Tommy Hilfiger Polo 238",
+    "description": "A stylish polo from Tommy Hilfiger, perfect for formal and casual occasions.",
+    "price": "111€",
+    "brand": "Tommy Hilfiger",
+    "shop_url": "https://www.tommy.com"
+  },
+  {
+    "clothing_category": "watch",
+    "name": "Tag Heuer Watch 239",
+    "description": "A stylish watch from Tag Heuer, perfect for formal and casual occasions.",
+    "price": "1909€",
+    "brand": "Tag Heuer",
+    "shop_url": "https://www.tagheuer.com"
+  },
+  {
+    "clothing_category": "scarf",
+    "name": "Acne Studios Scarf 240",
+    "description": "A stylish scarf from Acne Studios, perfect for formal and casual occasions.",
+    "price": "210€",
+    "brand": "Acne Studios",
+    "shop_url": "https://www.acnestudios.com"
+  },
+  {
+    "clothing_category": "tie",
+    "name": "Zara Tie 241",
+    "description": "A stylish tie from Zara, perfect for formal and casual occasions.",
+    "price": "219€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "polo",
+    "name": "Tommy Hilfiger Polo 242",
+    "description": "A stylish polo from Tommy Hilfiger, perfect for formal and casual occasions.",
+    "price": "87€",
+    "brand": "Tommy Hilfiger",
+    "shop_url": "https://www.tommy.com"
+  },
+  {
+    "clothing_category": "suit",
+    "name": "Ralph Lauren Suit 243",
+    "description": "A stylish suit from Ralph Lauren, perfect for formal and casual occasions.",
+    "price": "723€",
+    "brand": "Ralph Lauren",
+    "shop_url": "https://www.ralphlauren.com"
+  },
+  {
+    "clothing_category": "trousers",
+    "name": "Armani Trousers 244",
+    "description": "A stylish trousers from Armani, perfect for formal and casual occasions.",
+    "price": "209€",
+    "brand": "Armani",
+    "shop_url": "https://www.armani.com"
+  },
+  {
+    "clothing_category": "watch",
+    "name": "Tissot Watch 245",
+    "description": "A stylish watch from Tissot, perfect for formal and casual occasions.",
+    "price": "4298€",
+    "brand": "Tissot",
+    "shop_url": "https://www.tissotwatches.com"
+  },
+  {
+    "clothing_category": "shoes",
+    "name": "Gucci Shoes 246",
+    "description": "A stylish shoes from Gucci, perfect for formal and casual occasions.",
+    "price": "585€",
+    "brand": "Gucci",
+    "shop_url": "https://www.gucci.com"
+  },
+  {
+    "clothing_category": "watch",
+    "name": "Rolex Watch 247",
+    "description": "A stylish watch from Rolex, perfect for formal and casual occasions.",
+    "price": "1650€",
+    "brand": "Rolex",
+    "shop_url": "https://www.fashion.com"
+  },
+  {
+    "clothing_category": "trousers",
+    "name": "Hugo Boss Trousers 248",
+    "description": "A stylish trousers from Hugo Boss, perfect for formal and casual occasions.",
+    "price": "121€",
+    "brand": "Hugo Boss",
+    "shop_url": "https://www.hugoboss.com"
+  },
+  {
+    "clothing_category": "coat",
+    "name": "Moncler Coat 249",
+    "description": "A stylish coat from Moncler, perfect for formal and casual occasions.",
+    "price": "202€",
+    "brand": "Moncler",
+    "shop_url": "https://www.moncler.com"
+  },
+  {
+    "clothing_category": "belt",
+    "name": "Zara Belt 250",
+    "description": "A stylish belt from Zara, perfect for formal and casual occasions.",
+    "price": "219€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "watch",
+    "name": "Tag Heuer Watch 251",
+    "description": "A stylish watch from Tag Heuer, perfect for formal and casual occasions.",
+    "price": "224€",
+    "brand": "Tag Heuer",
+    "shop_url": "https://www.tagheuer.com"
+  },
+  {
+    "clothing_category": "scarf",
+    "name": "Acne Studios Scarf 252",
+    "description": "A stylish scarf from Acne Studios, perfect for formal and casual occasions.",
+    "price": "227€",
+    "brand": "Acne Studios",
+    "shop_url": "https://www.acnestudios.com"
+  },
+  {
+    "clothing_category": "scarf",
+    "name": "Louis Vuitton Scarf 253",
+    "description": "A stylish scarf from Louis Vuitton, perfect for formal and casual occasions.",
+    "price": "521€",
+    "brand": "Louis Vuitton",
+    "shop_url": "https://www.louisvuitton.com"
+  },
+  {
+    "clothing_category": "scarf",
+    "name": "Burberry Scarf 254",
+    "description": "A stylish scarf from Burberry, perfect for formal and casual occasions.",
+    "price": "411€",
+    "brand": "Burberry",
+    "shop_url": "https://www.burberry.com"
+  },
+  {
+    "clothing_category": "polo",
+    "name": "Ralph Lauren Polo 255",
+    "description": "A stylish polo from Ralph Lauren, perfect for formal and casual occasions.",
+    "price": "134€",
+    "brand": "Ralph Lauren",
+    "shop_url": "https://www.ralphlauren.com"
+  },
+  {
+    "clothing_category": "scarf",
+    "name": "Acne Studios Scarf 256",
+    "description": "A stylish scarf from Acne Studios, perfect for formal and casual occasions.",
+    "price": "508€",
+    "brand": "Acne Studios",
+    "shop_url": "https://www.acnestudios.com"
+  },
+  {
+    "clothing_category": "tie",
+    "name": "Hackett Tie 257",
+    "description": "A stylish tie from Hackett, perfect for formal and casual occasions.",
+    "price": "57€",
+    "brand": "Hackett",
+    "shop_url": "https://www.hackett.com"
+  },
+  {
+    "clothing_category": "belt",
+    "name": "Hermès Belt 258",
+    "description": "A stylish belt from Hermès, perfect for formal and casual occasions.",
+    "price": "247€",
+    "brand": "Hermès",
+    "shop_url": "https://www.hermes.com"
+  },
+  {
+    "clothing_category": "belt",
+    "name": "Gucci Belt 259",
+    "description": "A stylish belt from Gucci, perfect for formal and casual occasions.",
+    "price": "359€",
+    "brand": "Gucci",
+    "shop_url": "https://www.gucci.com"
+  },
+  {
+    "clothing_category": "jeans",
+    "name": "Armani Jeans 260",
+    "description": "A stylish jeans from Armani, perfect for formal and casual occasions.",
+    "price": "298€",
+    "brand": "Armani",
+    "shop_url": "https://www.armani.com"
+  },
+  {
+    "clothing_category": "jeans",
+    "name": "Levi’s Jeans 261",
+    "description": "A stylish jeans from Levi’s, perfect for formal and casual occasions.",
+    "price": "141€",
+    "brand": "Levi’s",
+    "shop_url": "https://www.levi.com"
+  },
+  {
+    "clothing_category": "polo",
+    "name": "Zara Polo 262",
+    "description": "A stylish polo from Zara, perfect for formal and casual occasions.",
+    "price": "52€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "belt",
+    "name": "Ralph Lauren Belt 263",
+    "description": "A stylish belt from Ralph Lauren, perfect for formal and casual occasions.",
+    "price": "416€",
+    "brand": "Ralph Lauren",
+    "shop_url": "https://www.ralphlauren.com"
+  },
+  {
+    "clothing_category": "shoes",
+    "name": "Allen Edmonds Shoes 264",
+    "description": "A stylish shoes from Allen Edmonds, perfect for formal and casual occasions.",
+    "price": "548€",
+    "brand": "Allen Edmonds",
+    "shop_url": "https://www.allenedmonds.com"
+  },
+  {
+    "clothing_category": "watch",
+    "name": "Rolex Watch 265",
+    "description": "A stylish watch from Rolex, perfect for formal and casual occasions.",
+    "price": "3325€",
+    "brand": "Rolex",
+    "shop_url": "https://www.fashion.com"
+  },
+  {
+    "clothing_category": "tie",
+    "name": "Ralph Lauren Tie 266",
+    "description": "A stylish tie from Ralph Lauren, perfect for formal and casual occasions.",
+    "price": "168€",
+    "brand": "Ralph Lauren",
+    "shop_url": "https://www.ralphlauren.com"
+  },
+  {
+    "clothing_category": "tie",
+    "name": "Hermès Tie 267",
+    "description": "A stylish tie from Hermès, perfect for formal and casual occasions.",
+    "price": "192€",
+    "brand": "Hermès",
+    "shop_url": "https://www.hermes.com"
+  },
+  {
+    "clothing_category": "blazer",
+    "name": "Hugo Boss Blazer 268",
+    "description": "A stylish blazer from Hugo Boss, perfect for formal and casual occasions.",
+    "price": "745€",
+    "brand": "Hugo Boss",
+    "shop_url": "https://www.hugoboss.com"
+  },
+  {
+    "clothing_category": "polo",
+    "name": "Uniqlo Polo 269",
+    "description": "A stylish polo from Uniqlo, perfect for formal and casual occasions.",
+    "price": "52€",
+    "brand": "Uniqlo",
+    "shop_url": "https://www.uniqlo.com"
+  },
+  {
+    "clothing_category": "shirt",
+    "name": "Zara Shirt 270",
+    "description": "A stylish shirt from Zara, perfect for formal and casual occasions.",
+    "price": "56€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "shirt",
+    "name": "Hugo Boss Shirt 271",
+    "description": "A stylish shirt from Hugo Boss, perfect for formal and casual occasions.",
+    "price": "72€",
+    "brand": "Hugo Boss",
+    "shop_url": "https://www.hugoboss.com"
+  },
+  {
+    "clothing_category": "tie",
+    "name": "Hermès Tie 272",
+    "description": "A stylish tie from Hermès, perfect for formal and casual occasions.",
+    "price": "195€",
+    "brand": "Hermès",
+    "shop_url": "https://www.hermes.com"
+  },
+  {
+    "clothing_category": "blazer",
+    "name": "Zara Blazer 273",
+    "description": "A stylish blazer from Zara, perfect for formal and casual occasions.",
+    "price": "336€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "blazer",
+    "name": "Ralph Lauren Blazer 274",
+    "description": "A stylish blazer from Ralph Lauren, perfect for formal and casual occasions.",
+    "price": "589€",
+    "brand": "Ralph Lauren",
+    "shop_url": "https://www.ralphlauren.com"
+  },
+  {
+    "clothing_category": "watch",
+    "name": "Casio Watch 275",
+    "description": "A stylish watch from Casio, perfect for formal and casual occasions.",
+    "price": "5829€",
+    "brand": "Casio",
+    "shop_url": "https://www.casio.com"
+  },
+  {
+    "clothing_category": "belt",
+    "name": "Gucci Belt 276",
+    "description": "A stylish belt from Gucci, perfect for formal and casual occasions.",
+    "price": "336€",
+    "brand": "Gucci",
+    "shop_url": "https://www.gucci.com"
+  },
+  {
+    "clothing_category": "tie",
+    "name": "Ralph Lauren Tie 277",
+    "description": "A stylish tie from Ralph Lauren, perfect for formal and casual occasions.",
+    "price": "136€",
+    "brand": "Ralph Lauren",
+    "shop_url": "https://www.ralphlauren.com"
+  },
+  {
+    "clothing_category": "shirt",
+    "name": "Charles Tyrwhitt Shirt 278",
+    "description": "A stylish shirt from Charles Tyrwhitt, perfect for formal and casual occasions.",
+    "price": "150€",
+    "brand": "Charles Tyrwhitt",
+    "shop_url": "https://www.charlestyrwhitt.com"
+  },
+  {
+    "clothing_category": "suit",
+    "name": "Armani Suit 279",
+    "description": "A stylish suit from Armani, perfect for formal and casual occasions.",
+    "price": "796€",
+    "brand": "Armani",
+    "shop_url": "https://www.armani.com"
+  },
+  {
+    "clothing_category": "shirt",
+    "name": "Charles Tyrwhitt Shirt 280",
+    "description": "A stylish shirt from Charles Tyrwhitt, perfect for formal and casual occasions.",
+    "price": "134€",
+    "brand": "Charles Tyrwhitt",
+    "shop_url": "https://www.charlestyrwhitt.com"
+  },
+  {
+    "clothing_category": "watch",
+    "name": "Tag Heuer Watch 281",
+    "description": "A stylish watch from Tag Heuer, perfect for formal and casual occasions.",
+    "price": "376€",
+    "brand": "Tag Heuer",
+    "shop_url": "https://www.tagheuer.com"
+  },
+  {
+    "clothing_category": "tie",
+    "name": "Ralph Lauren Tie 282",
+    "description": "A stylish tie from Ralph Lauren, perfect for formal and casual occasions.",
+    "price": "177€",
+    "brand": "Ralph Lauren",
+    "shop_url": "https://www.ralphlauren.com"
+  },
+  {
+    "clothing_category": "tie",
+    "name": "Zara Tie 283",
+    "description": "A stylish tie from Zara, perfect for formal and casual occasions.",
+    "price": "80€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "belt",
+    "name": "Gucci Belt 284",
+    "description": "A stylish belt from Gucci, perfect for formal and casual occasions.",
+    "price": "46€",
+    "brand": "Gucci",
+    "shop_url": "https://www.gucci.com"
+  },
+  {
+    "clothing_category": "belt",
+    "name": "Levi’s Belt 285",
+    "description": "A stylish belt from Levi’s, perfect for formal and casual occasions.",
+    "price": "392€",
+    "brand": "Levi’s",
+    "shop_url": "https://www.levi.com"
+  },
+  {
+    "clothing_category": "belt",
+    "name": "Zara Belt 286",
+    "description": "A stylish belt from Zara, perfect for formal and casual occasions.",
+    "price": "425€",
+    "brand": "Zara",
+    "shop_url": "https://www.zara.com"
+  },
+  {
+    "clothing_category": "shoes",
+    "name": "Allen Edmonds Shoes 287",
+    "description": "A stylish shoes from Allen Edmonds, perfect for formal and casual occasions.",
+    "price": "584€",
+    "brand": "Allen Edmonds",
+    "shop_url": "https://www.allenedmonds.com"
+  },
+  {
+    "clothing_category": "suit",
+    "name": "Armani Suit 288",
+    "description": "A stylish suit from Armani, perfect for formal and casual occasions.",
+    "price": "607€",
+    "brand": "Armani",
+    "shop_url": "https://www.armani.com"
+  },
+  {
+    "clothing_category": "belt",
+    "name": "Ralph Lauren Belt 289",
+    "description": "A stylish belt from Ralph Lauren, perfect for formal and casual occasions.",
+    "price": "213€",
+    "brand": "Ralph Lauren",
+    "shop_url": "https://www.ralphlauren.com"
+  },
+  {
+    "clothing_category": "blazer",
+    "name": "Armani Blazer 290",
+    "description": "A stylish blazer from Armani, perfect for formal and casual occasions.",
+    "price": "120€",
+    "brand": "Armani",
+    "shop_url": "https://www.armani.com"
+  }
+]

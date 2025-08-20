@@ -29,6 +29,8 @@ gem "jbuilder"
 gem "ostruct"
 
 gem "devise"
+gem "ruby_llm"
+gem 'ruby_llm-schema'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
