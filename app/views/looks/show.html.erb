@@ -3,17 +3,18 @@
 
   <% @pieces.values.first.each do |piece| %>
   <div class="container">
-    <div class="card-product my-3">
+    <div class="card-product my-3 w-100">
       <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
-      <div class="card-product-infos my-3">
+      <div class="card-product-infos my-3 w-100">
         <div class="d-flex justify-content-between">
-          <h2><%= piece["name"] %></h2>
+          <h2 class="mt-3"><%= piece["name"] %></h2>
           <p>Category: <strong><%= piece["clothing_category"].capitalize %></strong></p>
         </div>
         <p>Description: <%= piece["description"] %></p>
+        <p>Brand: <%= piece["brand"] %></p>
         <div class="d-flex justify-content-between">
           <p>Price: <%= piece["price"] %>€</p>
-          <a href=<%= piece["shop_url"] %> class="btn btn-primary">Buy my piece here!</a>
+          <a href=<%= piece["shop_url"] %> class="btn btn-primary mx-0 mb-2">Buy my piece here!</a>
         </div>
       </div>
     </div>

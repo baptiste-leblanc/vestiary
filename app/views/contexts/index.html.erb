@@ -5,10 +5,10 @@
         <div class="col-3 border m-2" style="width: 400px; height:200px">
           <h4 class="m-2"><%= look.name %></h4>
           <p class="m-2"><%= look.description %></p>
+          <%= link_to "Go for this look", look_path(look) %>
         </div>
       <% end %>
   </div>
-  <%= link_to "Go for this look", context_look_path(@look) %>
 </div>
 
 <div>
