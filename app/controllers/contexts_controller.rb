@@ -11,11 +11,11 @@ class ContextsController < ApplicationController
     end
 
     @looks = @context.looks
+    @looks = Look.all
   end
 
   def index
     @user = User.last
-    @looks = Look.all
     @contexts = Context.all
     @context = Context.new
   end
