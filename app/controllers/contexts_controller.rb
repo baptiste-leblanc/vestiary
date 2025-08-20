@@ -1,6 +1,11 @@
 class ContextsController < ApplicationController
   def show
+    @context = Context.new
+    # @context = Context.find(params[:id])
     @looks = Look.all
+    @look = Look.new
+    # redirect_to context_look_path(@look)
+    # /contexts/:context_id/looks/:id(.:format)
   end
 
   def index
