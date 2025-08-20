@@ -28,8 +28,11 @@ context = Context.new(objective: "Je recherche un vêtement pour un mariage", bu
 context.save
 puts "Context created"
 
-look = Look.new(description: "Costume classique desc", name: "Costume classique", context_id: Context.first.id)
+look = Look.new(description: "Un costume classique avec une veste ajustée et un pantalon assorti, celui-ci est en laine, avec une chemise claire, le tout complété par une cravate et des chaussures en cuir élégantes.", name: "Costume classique", context_id: Context.first.id)
 look.save
+puts "look created"
+look2 = Look.new(description: "Costume classique desc", name: "Tenue élégante", context_id: Context.first.id)
+look2.save
 puts "look created"
 
 piece = Piece.new(clothing_category: "scarf", name: "Red scarf", description: "Red scarf desc", price: "10€", brand: "Ralph Lauren", shop_url: "www.google.com")
