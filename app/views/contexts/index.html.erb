@@ -1,7 +1,5 @@
-<h1>Context page</h1>
 
-
-<div class="container m-5">
+<div class="container d-flex justify-content-center m-5">
   <div class="row">
       <% @looks.each do |look| %>
         <div class="col-3 border m-2" style="width: 400px; height:200px">
@@ -10,6 +8,7 @@
         </div>
       <% end %>
   </div>
+  <%= link_to "Go for this look", context_look_path(@look) %>
 </div>
 
 <div>
@@ -18,5 +17,4 @@
   <%= f.input :budget, :collection => %w[€ €€ €€€ €€€€] %>
   <%= f.submit "Find my look !" %>
 <% end %>
-<%# <%= link_to "Vers la show", context_path(@context) %>
 </div>
