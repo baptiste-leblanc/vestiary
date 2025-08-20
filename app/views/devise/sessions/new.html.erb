@@ -12,7 +12,7 @@
   <h3 class="mt-5">Log in</h3>
 
   <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
-    <div class="form-inputs">
+    <div class="form-inputs, text-white">
       <%= f.input :email,
                   required: false,
                   autofocus: true,
@@ -26,7 +26,7 @@
     </div>
 
     <div class="form-actions">
-      <%= f.button :submit, "Log in" %>
+      <%= f.button :submit, "Log in", class: "btn btn-primary mb-3 w-100" %>
     </div>
   <% end %>
 
