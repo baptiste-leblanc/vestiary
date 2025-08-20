@@ -20,7 +20,7 @@ puts "Everything is destroyed"
 
 # Créer un contexte
 
-user = User.new(username: "ugo", email: "test@test.com", password: "password", gender: "male")
+user = User.new(username: "ugo", email: "test@test.com", password: "password", gender: "male", height: 160, weight: 50)
 user.save
 puts "User created"
 
