@@ -3,11 +3,9 @@
   <div class="row">
       <% @contexts.each do |context| %>
         <div class="col-3 border m-2" style="width: 400px; height:200px">
-          <h4 class="m-2"><%= look.name %></h4>
-          <p class="m-2"><%= look.description %></p>
-          <%= link_to "Go for this look", look_path(look) %>
-        </div>
+          <h4 class="m-2"><%= context.objective %></h4>
         <%= link_to "Go for this context", context_path(context) %>
+        </div>
       <% end %>
   </div>
 </div>
