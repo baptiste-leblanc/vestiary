@@ -296,6 +296,7 @@ GEM
       faraday-retry (>= 1)
       marcel (~> 1.0)
       zeitwerk (~> 2)
+    ruby_llm-schema (0.1.6)
     rubyzip (3.0.1)
     sassc (2.4.0)
       ffi (~> 1.9)
@@ -377,6 +378,7 @@ DEPENDENCIES
   puma (>= 5.0)
   rails (~> 7.1.5, >= 7.1.5.2)
   ruby_llm
+  ruby_llm-schema
   sassc-rails
   selenium-webdriver
   simple_form!
