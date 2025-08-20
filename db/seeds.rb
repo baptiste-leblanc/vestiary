@@ -31,10 +31,10 @@ puts "Context created"
 look = Look.new(description: "A classic suit with a tailored jacket and matching trousers, made of wool, paired with a light-colored shirt, completed with a tie and elegant leather shoes.", name: "Classic costume", context_id: Context.first.id)
 look.save
 puts "look created"
-look2 = Look.new(description: "A tailored navy wool blazer with matching slightly tapered trousers, paired with a classic white cotton shirt. Complete the look with a deep burgundy or navy silk tie, dark brown leather Derby shoes, and matching leather belt.", name: "Elegant outfit", context_id: Context.first.id)
+look2 = Look.new(description: "A tailored navy wool blazer with matching slightly tapered trousers, paired with a classic white cotton shirt. Complete the look with a deep burgundy or navy silk tie, dark brown leather Derby shoes, and matching leather belt.", name: "Italian Summer Costume", context_id: Context.first.id)
 look2.save
 puts "look created"
-look3 = Look.new(description: "A well-fitted dark suit, paired with a blue shirt. Complete the look with a simple silk tie, elegant leather shoes, a matching belt.", name: "Classic outfit", context_id: Context.first.id)
+look3 = Look.new(description: "A well-fitted dark suit, paired with a blue shirt. Complete the look with a simple silk tie, elegant leather shoes, a matching belt.", name: "Old Fashion Costume", context_id: Context.first.id)
 look3.save
 puts "look created"
 

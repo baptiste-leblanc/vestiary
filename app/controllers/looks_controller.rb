@@ -9,13 +9,13 @@ class LooksController < ApplicationController
       Your role is to help a client choose clothing pieces that best match their needs.
 
       Client profile:
-      - Objective: wedding with #{@look.name}
+      - Objective: wedding outfit with the following style: #{@look.name}
       - Morphology: large build
       - Budget: medium
 
       Task:
       Generate up to 5 clothing items that form a coherent, stylish outfit for this client and event. Each item should include realistic values for:
-      clothing_category, name, description, price, brand, shop_url.
+      clothing_category, name, description, price (without currency sign), brand, shop_url.
 
       Constraints:
       - Fit the wedding context (formal, elegant)
