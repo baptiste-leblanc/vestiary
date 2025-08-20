@@ -1,7 +1,7 @@
 <div class="auth-buttons text-center mt-4">
 
   <%- if controller_name != 'sessions' %>
-    <%= link_to "Log in", new_session_path(resource_name), class: "btn btn-primary mb-3 w-100" %>
+    <%= link_to "Log in", new_session_path(resource_name) %>
   <% end %>
 
   <%- if devise_mapping.registerable? && controller_name != 'registrations' %>

@@ -28,14 +28,17 @@ context = Context.new(objective: "Je recherche un vêtement pour un mariage", bu
 context.save
 puts "Context created"
 
-look = Look.new(description: "Un costume classique avec une veste ajustée et un pantalon assorti, celui-ci est en laine, avec une chemise claire, le tout complété par une cravate et des chaussures en cuir élégantes.", name: "Costume classique", context_id: Context.first.id)
+look = Look.new(description: "A classic suit with a tailored jacket and matching trousers, made of wool, paired with a light-colored shirt, completed with a tie and elegant leather shoes.", name: "Classic costume", context_id: Context.first.id)
 look.save
 puts "look created"
-look2 = Look.new(description: "Costume classique desc", name: "Tenue élégante", context_id: Context.first.id)
+look2 = Look.new(description: "A tailored navy wool blazer with matching slightly tapered trousers, paired with a classic white cotton shirt. Complete the look with a deep burgundy or navy silk tie, dark brown leather Derby shoes, and matching leather belt.", name: "Elegant outfit", context_id: Context.first.id)
 look2.save
 puts "look created"
+look3 = Look.new(description: "A well-fitted dark suit, paired with a blue shirt. Complete the look with a simple silk tie, elegant leather shoes, a matching belt.", name: "Classic outfit", context_id: Context.first.id)
+look3.save
+puts "look created"
 
-piece = Piece.new(clothing_category: "scarf", name: "Red scarf", description: "Red scarf desc", price: "10€", brand: "Ralph Lauren", shop_url: "www.google.com")
+piece = Piece.new(clothing_category: "jacket", name: "Black jacket", description: "Black costume jacket", price: "100€", brand: "Ralph Lauren", shop_url: "www.google.com")
 piece.save
 puts "piece created"
 piece = Piece.new(clothing_category: "pull", name: "Red pull", description: "Red pull desc", price: "10€", brand: "Ralph Lauren", shop_url: "www.google.com")

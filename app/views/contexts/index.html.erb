@@ -1,25 +1,20 @@
-<div class="col-6 m-auto mt-3">
 
-  <h1>What are you looking for ?</h1>
-
-  <div class="mt-5 mb-5">
-    <div class="row">
-        <% @looks.each do |look| %>
-          <div class="col-3 border m-2" style="width: 100%; height:200px">
-            <h4 class="m-2"><%= look.name %></h4>
-            <p class="m-2"><%= look.description %></p>
-          </div>
-        <% end %>
-    </div>
+<div class="container d-flex justify-content-center m-5">
+  <div class="row">
+      <% @looks.each do |look| %>
+        <div class="col-3 border m-2" style="width: 400px; height:200px">
+          <h4 class="m-2"><%= look.name %></h4>
+          <p class="m-2"><%= look.description %></p>
+        </div>
+      <% end %>
   </div>
+  <%= link_to "Go for this look", context_look_path(@look) %>
+</div>
 
-  <div>
-  <%= simple_form_for [@user, @context] do |f| %>
-    <%= f.input :objective, placeholder: "Why do you want a new outfit", required: true, label: false %>
-    <%= f.input :budget, :collection => %w[€ €€ €€€ €€€€] %>
-    <%= f.submit "Find my look !" %>
-  <% end %>
-  <%# <%= link_to "Vers la show", context_path(@context) %>
-  </div>
-
+<div>
+<%= simple_form_for [@user, @context] do |f| %>
+  <%= f.input :objective, placeholder: "Why do you want a new outfit", required: true, label: false %>
+  <%= f.input :budget, :collection => %w[€ €€ €€€ €€€€] %>
+  <%= f.submit "Find my look !" %>
+<% end %>
 </div>
