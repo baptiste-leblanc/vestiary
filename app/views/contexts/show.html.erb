@@ -4,8 +4,8 @@
       <div class="col-3 border m-2" style="width: 400px; height:200px;">
         <h4 class="m-2"><%= look.name %></h4>
         <p class="m-2"><%= look.description %></p>
+        <%= link_to "Show the pieces", look_path(look) %>
       </div>
-    <%= link_to "Show the pieces", look_path(look) %>
     <%# /contexts/:context_id/looks/:id(.:format) %>
     <% end %>
 </div>

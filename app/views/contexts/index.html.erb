@@ -1,14 +1,14 @@
 
 <div class="container d-flex justify-content-center m-5">
   <div class="row">
-      <% @looks.each do |look| %>
+      <% @contexts.each do |context| %>
         <div class="col-3 border m-2" style="width: 400px; height:200px">
-          <h4 class="m-2"><%= look.name %></h4>
-          <p class="m-2"><%= look.description %></p>
+          <h4 class="m-2"><%= context.objective %></h4>
+          <%# <p class="m-2"><%= context.description %>
         </div>
+        <%= link_to "Go for this context", context_path(context) %>
       <% end %>
   </div>
-  <%= link_to "Go for this look", context_look_path(@look) %>
 </div>
 
 <div>

@@ -21,7 +21,6 @@ class ContextsController < ApplicationController
     if @context.save
       redirect_to context_path(@context)
     else
-      @looks = Look.all
       render :index, status: :unprocessable_entity
     end
   end
