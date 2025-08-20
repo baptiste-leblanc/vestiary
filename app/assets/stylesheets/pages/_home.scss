@@ -40,3 +40,21 @@
   width: 200px;         /* largeur fixe */
   margin: 0 auto;       /* centre dans le cadre */
 }
+
+h3 {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color:#FFFFFF;
+}
+
+.auth-buttons {
+  max-width: 220px; /* largeur du bloc */
+  margin: 0 auto;   /* centre le bloc */
+}
+
+.auth-buttons .btn {
+  width: 200px;     /* largeur des boutons */
+  display: block;
+  margin: 0 auto 10px; /* espacement vertical */
+}
