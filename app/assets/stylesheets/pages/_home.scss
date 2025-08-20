@@ -1,1 +1,42 @@
 // Specific CSS for your home-page
+
+.home-background {
+  background: image-url("pexels-olia-danilevich-4723149.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Cadre semi-transparent pour les titres */
+.title-banner {
+  background-color: rgba(255, 255, 255, 0.7); /* blanc semi-transparent */
+  width: 100%;
+}
+/* Titre */
+.title-banner h1 {
+  font-family: 'Protest Revolution', sans-serif;
+  font-size: 90px;
+  font-weight: normal; /* cette police est déjà assez forte */
+  color: #000; /* noir par défaut, tu peux changer */
+}
+
+/* Sous-titre */
+.title-banner h2 {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #333;
+}
+
+/*
+.button-box {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid white;
+  max-width: 400px;
+}
+*/
+
+/* Styles des boutons */
+.btn {
+  display: block;       /* force un affichage en bloc */
+  width: 200px;         /* largeur fixe */
+  margin: 0 auto;       /* centre dans le cadre */
+}
