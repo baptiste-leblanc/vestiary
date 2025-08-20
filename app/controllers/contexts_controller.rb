@@ -1,44 +1,29 @@
 class ContextsController < ApplicationController
-  skip_before_action :authenticate_user!
-
   def show
-    3.times do
-      Look.create!(
-        context: @context,
-        name: "Nouveau look",
-        description: "À compléter"
-      )
-    end
-
-    @looks = @context.looks
     @looks = Look.all
   end
 
   def index
-    @user = User.last
     @contexts = Context.all
     @context = Context.new
-  end
-
-  def new
-    @context = Context.new
+    @looks = Look.all
   end
 
   def create
     @context = Context.new(context_params)
-    @context.user = @user
+    @context.user = current_user
 
     if @context.save
-      redirect_to contexts_path(@user)
+      redirect_to context_path(@context)
     else
-      @contexts = @user.contexts
+      @looks = Look.all
       render :index, status: :unprocessable_entity
     end
   end
 
-  # private
+  private
 
-  # def context_params
-  #   params.require(:context).permit(:objective, :budget)
-  # end
+  def context_params
+    params.require(:context).permit(:objective, :budget)
+  end
 end
