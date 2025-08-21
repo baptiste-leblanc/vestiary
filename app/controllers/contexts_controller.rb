@@ -4,6 +4,7 @@ class ContextsController < ApplicationController
     @contexts = Context.all
     @looks = Look.all
   end
+
   def create
     @context = Context.new(context_params)
     @context.user = current_user
@@ -14,17 +15,17 @@ class ContextsController < ApplicationController
       render :index, status: :unprocessable_entity
     end
   end
+
   def show
     @context = Context.find(params[:id])
     @looks = @context.looks
   end
-  
+
   private
 
   def context_params
     params.require(:context).permit(:objective, :budget)
   end
-
 
   def create_looks(array)
     @looks = array.map do |element|
