@@ -12,6 +12,9 @@
   </head>
 
   <body>
+    <% unless devise_controller? && (action_name == 'new' || action_name == 'create') %>
+      <%= render 'devise/shared/navbar' %>
+    <% end %>
     <%= yield %>
   </body>
 </html>
