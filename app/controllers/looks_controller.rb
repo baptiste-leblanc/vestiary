@@ -23,7 +23,7 @@ class LooksController < ApplicationController
     - Fit the style objective
     - Adapted to large morphology (comfortable, flattering cuts)
     - Stay within medium budget
-    - Have the relevant keywords for an image query in unsplash
+    - Have the relevant keywords for an image query in unsplash (with words separated by _)
 
 
     Output format:
