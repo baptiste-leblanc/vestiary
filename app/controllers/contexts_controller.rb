@@ -19,6 +19,7 @@ class ContextsController < ApplicationController
   def show
     @context = Context.find(params[:id])
     @looks = @context.looks
+    @message = Message.new()
   end
 
   private
