@@ -12,8 +12,8 @@
 
 <div>
 <%= simple_form_for [@user, @context] do |f| %>
-  <%= f.input :objective, placeholder: "Why do you want a new outfit", required: true, label: false %>
-  <%= f.input :budget, :collection => %w[€ €€ €€€ €€€€] %>
+  <%= f.input :objective, placeholder: "Why do you want a new outfit", required: true, label: false, class:"user_input" %>
+  <%= f.input :budget, :collection => %w[50-100€ 100-200€ 300-500€ 1000-1500€] %>
   <%= f.submit "Find my look !" %>
 <% end %>
 </div>
