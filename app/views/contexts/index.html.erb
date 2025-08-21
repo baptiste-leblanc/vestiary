@@ -3,11 +3,10 @@
   <div class="justify-content-center m-3">
    <h2>PAST SEARCH</h2>
     <div>
-        <% @looks.each do |look| %>
+        <% @contexts.each do |context| %>
           <div class="border m-2">
-            <h4 class="m-2"><%= look.name %></h4>
-            <p class="m-2"><%= look.description %></p>
-            <%= link_to "Go for this look", look_path(look) %>
+            <h4 class="m-2"><%= context.objective %></h4>
+            <%= link_to "Go for this context", context_path(context) %>
           </div>
         <% end %>
     </div>
@@ -32,4 +31,4 @@
       <% end %>
     </div>
   </div>
-</div
+</div>
