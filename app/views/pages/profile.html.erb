@@ -6,7 +6,7 @@
 <ul>
   <li><strong>Username:</strong> <%= current_user.username %></li>
   <li><strong>Email:</strong> <%= current_user.email %></li>
-  <li><strong>Password:</strong> <%= current_user.password %></li>
+  <li><strong>Password:</strong> ********</li>
   <li><strong>Height:</strong> <%= current_user.height %></li>
   <li><strong>Weight:</strong> <%= current_user.weight %></li>
   <li><strong>Gender:</strong> <%= current_user.gender %></li>
@@ -14,5 +14,5 @@
 </ul>
 
 
-<a href="edit_user_registration_path">Edit</a>
+<%= link_to "Edit", edit_user_registration_path %>
 </div>

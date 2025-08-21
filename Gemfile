@@ -29,6 +29,8 @@ gem "jbuilder"
 gem "ostruct"
 
 gem "devise"
+gem "ruby_llm"
+gem 'ruby_llm-schema'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
@@ -56,7 +58,7 @@ gem "sassc-rails"
 gem "cloudinary"
 
 group :development, :test do
-  gem "dotenv-rails"
+  gem "dotenv-rails", groups: [:development, :test]
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]
 end
