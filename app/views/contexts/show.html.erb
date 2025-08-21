@@ -1,9 +1,8 @@
-<div class="container col-6">
-  <div class="justify-content-center m-5">
-  <h2>SUGGESTED LOOKS</h2>
+<div class="justify-content-center m-3">
+  <h2>Suggested Looks</h2>
   <div>
       <% @looks.each do |look| %>
-        <div class="border bg-white m-2" style="width: 400px; height:200px;">
+        <div class="border bg-white m-2">
           <h4 class="m-2"><%= look.name %></h4>
           <p class="m-2"><%= look.description %></p>
         </div>
@@ -16,5 +15,4 @@
     <%= f.submit "Adjust my research",
         class: "btn btn-dark btn-lg w-100 shadow"  %>
   <% end %>
-  </div>
 </div>

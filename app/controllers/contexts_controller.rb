@@ -15,6 +15,7 @@ class ContextsController < ApplicationController
       render :index, status: :unprocessable_entity
     end
   end
+
   def show
     @context = Context.find(params[:id])
     @looks = @context.looks

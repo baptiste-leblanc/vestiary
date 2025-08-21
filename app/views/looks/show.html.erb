@@ -4,14 +4,15 @@
   <div class="row g-1 justify-content-space-evenly" style="justify-content: space-between">
   <% @pieces.values.first.each do |piece| %>
 
-<%
-      api_key = ENV["UNSPLASH_API_KEY"]
-      url = "https://api.unsplash.com/search/photos?client_id=#{api_key}&page=1&query=#{piece["unsplash_query"]}"
-      image_serialized = URI.parse(url).read
-      image = JSON.parse(image_serialized) %>
+<%# <% api_key = ENV["UNSPLASH_API_KEY"]
+  url = "https://api.unsplash.com/search/photos?client_id=#{api_key}&page=1&query=#{piece["unsplash_query"]}"
+  image_serialized = URI.parse(url).read
+  image = JSON.parse(image_serialized) %>
     <div class="col-5 col-lg-2">
       <div class="card bg-white">
-        <img src=<%= image["results"][0]["urls"]["small"] %> class="card-img-top" alt="...">
+        <div>
+          <img src='<%= image["results"][0]["urls"]["small"] %>' class="card-img-top" alt="...">
+        </div>
         <div class="card-body pt-0 px-0">
           <ul class="list-group list-group-flush">
             <li class="list-group-item"><strong><%= piece["clothing_category"].capitalize %></strong></li>
@@ -32,20 +33,29 @@
 <%= link_to "Back to list of looks", context_path(@look.context) %>
 
   <% @pieces.values.first.each do |piece| %>
-<div class="card-product my-3 w-100">
-      <img src="" />
-      <div class="card-product-infos my-3 w-100">
-        <div class="d-flex justify-content-between">
-          <h2 class="mt-3"><%= piece["name"] %></h2>
-          <p>Category: <strong><%= piece["clothing_category"].capitalize %></strong></p>
-        </div>
-        <p><strong>Relevance:</strong> <%= piece["description"] %></p>
-        <p><strong>Brand:</strong> <%= piece["brand"] %></p>
-        <div class="d-flex justify-content-between">
-          <p><strong>Price:</strong> <%= piece["price"] %>€</p>
+  <div class="card my-3 w-100">
+    <div class="row g-0">
+      <!-- Image à gauche -->
+      <div class="col-md-4">
+        <img src="" class="img-fluid rounded-start" alt="<%= piece["name"] %>">
+      </div>
+
+      <!-- Texte à droite -->
+      <div class="col-md-3">
+        <div class="card-body">
+          <div class="d-flex justify-content-between">
+            <h2 class="mt-2 h5"><%= piece["name"] %></h2>
+            <p class="mb-1">Category: <strong><%= piece["clothing_category"].capitalize %></strong></p>
+          </div>
+          <p class="mb-1"><strong>Relevance:</strong> <%= piece["description"] %></p>
+          <p class="mb-1"><strong>Brand:</strong> <%= piece["brand"] %></p>
+          <div class="d-flex justify-content-between">
+            <p class="mb-0"><strong>Price:</strong> <%= piece["price"] %>€</p>
+          </div>
         </div>
       </div>
     </div>
+  </div>
+<% end %>
 
-  <% end %>
 </div>
