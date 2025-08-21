@@ -1,20 +1,24 @@
 <div class="container col-6">
-  <div class="justify-content-center m-5">
-  <h2>SUGGESTED LOOKS</h2>
-  <div>
-      <% @looks.each do |look| %>
-        <div class="border bg-white m-2">
-          <h4 class="m-2"><%= look.name %></h4>
-          <p class="m-2"><%= look.description %></p>
-        </div>
-      <%= link_to "Show me the suggestions", look_path(look) %>
-      <%# /contexts/:context_id/looks/:id(.:format) %>
-      <% end %>
-  </div>
-  <%= simple_form_for [@user, @context] do |f| %>
-    <%= f.input :objective, placeholder: "You can precise your demand", required: true, label: false %>
-    <%= f.submit "Adjust my research",
-        class: "btn btn-dark btn-lg w-100 shadow"  %>
-  <% end %>
+    <div class="justify-content-center m-5">
+    <h2>SUGGESTED LOOKS</h2>
+    <div>
+        <% @looks.each do |look| %>
+          <div class="border bg-white m-2">
+            <h4 class="m-2"><%= look.name %></h4>
+            <p class="m-2"><%= look.description %></p>
+          </div>
+        <%= link_to "Show me the suggestions", look_path(look) %>
+        <%# /contexts/:context_id/looks/:id(.:format) %>
+        <% end %>
+    </div>
+
+    <div id="new_message">
+      <%= simple_form_for [@context, @message] do |f| %>
+      <%= f.input :content, placeholder: "Ask a question", required: true, label: false %>
+      <%= f.button :submit, "New chat", class: "btn btn-primary" %>
+        <% end %>
+    </div>
+
+
   </div>
 </div>

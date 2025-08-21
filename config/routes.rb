@@ -9,7 +9,6 @@ Rails.application.routes.draw do
 
   resources :contexts, only: [:index, :show, :create] do
     resources :messages, only: [:create]
-    resources :looks, only: [:show]
   end
   resources :looks, only: [:show]
 
