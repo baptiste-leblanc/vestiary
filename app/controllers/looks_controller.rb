@@ -31,4 +31,16 @@ class LooksController < ApplicationController
     response = chat.ask(system_prompt)
     @pieces = JSON.parse(response.content)
   end
+
+  def create
+    @context = Context.find(params[:context_id])
+    raise
+    @look = @context.looks.build(look_params)
+
+    if @look.save
+      redirect_to context_path(@context), notice: "Look created!"
+    else
+      render "contexts/show", status: :unprocessable_entity
+    end
+  end
 end

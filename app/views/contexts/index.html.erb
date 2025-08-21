@@ -23,7 +23,8 @@
             placeholder: "What type of outfit are you looking for?",
             required: true,
             label: false,
-            input_html: { class: "form-control form-control-lg border-0 shadow-sm mb-4" } %>
+            as: :text,
+            input_html: { class: "form-control form-control-lg border-0 shadow-sm mb-4", rows: 4 } %>
 
         <%= f.input :budget,
             collection: %w[€ €€ €€€ €€€€],
