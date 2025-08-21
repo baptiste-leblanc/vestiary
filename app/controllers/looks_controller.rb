@@ -25,6 +25,7 @@ class LooksController < ApplicationController
     - Stay within medium budget
     - Have the relevant keywords for an image query in unsplash
 
+
     Output format:
     Return the result as a JSON object with exactly the fields above. Do not include extra text before or after the JSON."
     response = chat.ask(system_prompt)

@@ -24,7 +24,7 @@ user = User.new(username: "ugo", email: "test@test.com", password: "password", g
 user.save
 puts "User created"
 
-context = Context.new(objective: "Je recherche un vêtement pour un mariage", budget: "1000€ max", user_id: User.first.id)
+context = Context.new(objective: "A costume for a wedding", budget: "300-500€", user_id: User.first.id)
 context.save
 puts "Context created"
 
