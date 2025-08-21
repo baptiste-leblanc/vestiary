@@ -28,8 +28,8 @@ class LooksController < ApplicationController
       response = chat.ask(system_prompt)
       @pieces = JSON.parse(response.content)
     end
-# @pieces = @look.pieces
-# chat.with_instructions(system_prompt)
-# prompt = "Here is the Json with the list of clothing pieces you can use:"
-# response = chat.ask(prompt, with: {json: "db/pieces_500_real.json"})
+  # @pieces = @look.pieces
+  # chat.with_instructions(system_prompt)
+  # prompt = "Here is the Json with the list of clothing pieces you can use:"
+  # response = chat.ask(prompt, with: {json: "db/pieces_500_real.json"})
 end

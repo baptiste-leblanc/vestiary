@@ -1,16 +1,22 @@
-<h2>Show page</h2>
-<div class="container">
-    <% @looks.each do |look| %>
-      <div class="col-3 border m-2" style="width: 400px; height:200px;">
-        <h4 class="m-2"><%= look.name %></h4>
-        <p class="m-2"><%= look.description %></p>
-      </div>
-    <%= link_to "Show the pieces", look_path(look) %>
-    <%# /contexts/:context_id/looks/:id(.:format) %>
-    <% end %>
-</div>
+<div class="container col-6">
+  <div class="justify-content-center m-5">
+  <h2>SUGGESTED LOOKS</h2>
 
-<%= simple_form_for [@user, @context] do |f| %>
-  <%= f.input :objective, placeholder: "You can precise your demand", required: true, label: false %>
-  <%= f.submit "Adapt my demand" %>
-<% end %>
+  <div>
+      <% @looks.each do |look| %>
+        <div class="border bg-white m-2" style="width: 400px; height:200px;">
+          <h4 class="m-2"><%= look.name %></h4>
+          <p class="m-2"><%= look.description %></p>
+        </div>
+      <%= link_to "Show me the suggestions", look_path(look) %>
+      <%# /contexts/:context_id/looks/:id(.:format) %>
+      <% end %>
+  </div>
+
+  <%= simple_form_for [@user, @context] do |f| %>
+    <%= f.input :objective, placeholder: "You can precise your demand", required: true, label: false %>
+    <%= f.submit "Adjust my research",
+        class: "btn btn-dark btn-lg w-100 shadow"  %>
+  <% end %>
+  </div>
+</div>
