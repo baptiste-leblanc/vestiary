@@ -2,6 +2,7 @@ class ContextsController < ApplicationController
   def index
     @context = Context.new
     @contexts = Context.all
+    @looks = Look.all
   end
   def create
     @context = Context.new(context_params)
