@@ -1,5 +1,4 @@
 class LooksController < ApplicationController
-
   require 'ruby_llm/schema'
   require 'json'
 
@@ -27,7 +26,7 @@ class LooksController < ApplicationController
       Return the result as a JSON object with exactly the fields above. Do not include extra text before or after the JSON."
       response = chat.ask(system_prompt)
       @pieces = JSON.parse(response.content)
-    end
+  end
 # @pieces = @look.pieces
 # chat.with_instructions(system_prompt)
 # prompt = "Here is the Json with the list of clothing pieces you can use:"

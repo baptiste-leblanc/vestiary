@@ -1,11 +1,10 @@
 
 <div class="container d-flex justify-content-center m-5">
   <div class="row">
-      <% @looks.each do |look| %>
+      <% @contexts.each do |context| %>
         <div class="col-3 border m-2" style="width: 400px; height:200px">
-          <h4 class="m-2"><%= look.name %></h4>
-          <p class="m-2"><%= look.description %></p>
-          <%= link_to "Go for this look", look_path(look) %>
+          <h4 class="m-2"><%= context.objective %></h4>
+        <%= link_to "Go for this context", context_path(context) %>
         </div>
       <% end %>
   </div>
@@ -13,8 +12,8 @@
 
 <div>
 <%= simple_form_for [@user, @context] do |f| %>
-  <%= f.input :objective, placeholder: "Why do you want a new outfit", required: true, label: false %>
-  <%= f.input :budget, :collection => %w[€ €€ €€€ €€€€] %>
+  <%= f.input :objective, placeholder: "Why do you want a new outfit", required: true, label: false, class:"user_input" %>
+  <%= f.input :budget, :collection => %w[50-100€ 100-200€ 300-500€ 1000-1500€] %>
   <%= f.submit "Find my look !" %>
 <% end %>
 </div>
