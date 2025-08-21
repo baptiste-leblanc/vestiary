@@ -1,5 +1,4 @@
 class LooksController < ApplicationController
-
   require 'ruby_llm/schema'
   require 'json'
   require "open-uri"
