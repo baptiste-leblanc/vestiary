@@ -1,10 +1,10 @@
 <h2>Show page</h2>
-<div class="container">
+<div class="container m-">
   <% @looks.each do |look| %>
     <div class="col-3 border m-2" style="width: 400px; height:200px;">
-      <h4 class="m-2"><%= look["name"] %></h4>
-      <p class="m-2"><%= look["description"] %></p>
-      <%= link_to "Go to the products", look_path() %>
+      <h4 class="m-2"><%= look.name %></h4>
+      <p class="m-2"><%= look.description %></p>
+      <%= link_to "Go to the products", look_path(look) %>
     </div>
   <% end %>
 </div>
