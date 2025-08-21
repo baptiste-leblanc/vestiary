@@ -1,34 +1,34 @@
-<div class="container col-6">
-
-  <div class="justify-content-center m-3">
-   <h2>PAST SEARCH</h2>
-    <div>
+<div class="justify-content-center">
+  <div class="border-bottom" style="background-color: #f5f4ed" >
+    <h3 class="pt-3 ms-4 fw-light text-dark fs-6 h1-custom" >PREVIOUS SEARCHES</h3>
+      <div class="d-flex overflow-auto mb-3">
         <% @contexts.each do |context| %>
-          <div class="border m-2">
-            <h4 class="m-2"><%= context.objective %></h4>
-            <%= link_to "Go for this context", context_path(context) %>
+          <div class="border rounded-4 bg-white flex-shrink-0 m-3 p-3 d-flex align-content-between flex-wrap shadow-sm" style="width: 300px;">
+            <h5 class="text-dark text-capitalize" ><strong><%= context.objective %></strong></h5>
+            <%= link_to "SEE RESULTS", context_path(context), class: "text-dark fs-6 text-decoration-none" %>
           </div>
         <% end %>
+      </div>
     </div>
   </div>
 
-<div class="bg-gradient pt-3">
-  <div class="border-0 shadow-lg w-100">
-    <div class="p-5">
-      <%= simple_form_for [@user, @context] do |f| %>
-        <%= f.input :objective,
-            placeholder: "What type of outfit are you looking for?",
-            required: true,
-            label: false,
-            as: :text,
-            input_html: { class: "form-control form-control-lg border-0 shadow-sm mb-4", rows: 4 } %>
+  <div class="container col-8 mt-5">
+    <%= simple_form_for [@user, @context] do |f| %>
+      <%= f.input :objective,
+        placeholder: "What type of outfit are you looking for?",
+        required: true,
+        label: false,
+        as: :text,
+        input_html: { class: "border rounded-4 bg-white shadow-sm mb-4 text-secondary", rows: 3 } %>
 
-        <%= f.input :budget,
-            collection: %w[€ €€ €€€ €€€€],
-            input_html: { class: "form-select form-select-lg border-0 shadow-sm mb-4" } %>
+      <%= f.input :budget,
+        collection: %w[€ €€ €€€ €€€€],
+        prompt: "Quel est votre budget",
+        label: false,
+        input_html: { class: "border rounded-4 bg-white form-select shadow-sm mb-4" } %>
 
-        <%= f.submit "Find my look!",
-            class: "btn btn-dark btn-lg w-100 shadow" %>
+      <%= f.submit "Find my look!",
+        class: "btn btn-dark btn-lg w-100 shadow" %>
       <% end %>
     </div>
   </div>
