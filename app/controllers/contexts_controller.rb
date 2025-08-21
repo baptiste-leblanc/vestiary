@@ -3,6 +3,7 @@ class ContextsController < ApplicationController
   def index
     @context = Context.new
     @contexts = Context.all
+    @looks = Look.all
   end
 
   def create
