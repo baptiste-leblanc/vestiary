@@ -29,10 +29,19 @@ class MessagesController < ApplicationController
       response = RubyLLM.chat.with_instructions(instructions).ask(@message.content)
       looks_payload = JSON.parse(response.content)["looks"]
       looks_payload = looks_payload[0]
-      Look.create!(description: looks_payload["description"], name: looks_payload["name"], context: @context)
-      redirect_to context_path(@context)
+      @look = Look.create!(description: looks_payload["description"], name: looks_payload["name"], context: @context)
+      # redirect_to context_path(@context)
+      respond_to do |format|
+          format.turbo_stream # renders `app/views/messages/create.turbo_stream.erb`
+          format.html { redirect_to context_path(@context) }
+        end
     else
-      render "chats/show"
+      respond_to do |format|
+        format.turbo_stream { render turbo_stream: turbo_stream.replace("new_message", partial: "messages/form", locals: { context: @context, message: @looks }) }
+        format.html { render "contexts/show", status: :unprocessable_entity }
+      end
+    # else
+    #   render "chats/show"
     end
   end
 

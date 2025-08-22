@@ -1,50 +1,16 @@
 <div class="border-bottom" style="background-color: #f5f4ed" >
 
-<div class="d-flex align-items-center">
-  <h3 class="pt-3 ms-4 fw-light text-dark fs-6">SUGGESTED LOOKS | </h3>
-  <div class="pt-2 ms-1 text-dark fs-6"> <strong><%= @context.objective.upcase %></strong></div>
-</div>
-
-    <div class="d-flex overflow-auto pb-3">
-      <% @looks.reverse.each do |look| %>
-        <%
-        require 'open-uri'
-        api_key = ENV["UNSPLASH_API_KEY"]
-         url = "https://api.unsplash.com/search/photos?client_id=#{api_key}&page=1&query=#{look.name}"
-         image_serialized = URI.parse(url).read
-         image = JSON.parse(image_serialized) %>
-        <div class="border rounded-4 bg-white flex-shrink-0 m-3 mb-3 d-flex align-content-between flex-wrap shadow-sm" style="width: 550px;">
-          <div class="d-flex w-100 rounded-4">
-
-            <div class="rounded-start-4" style="background-image:url('<%= image["results"][0]["urls"]["small"]%>');width: 300px; height: 320px; background-size: cover; background-position:center;"></div>
-
-            <div class="w-75 d-flex align-content-between flex-wrap px-3">
-                <div>
-                  <h4 class="mt-3"><%= look.name %></h4>
-                  <p><%= look.description %></p>
-                </div>
-                <%= link_to "SEE SUGGESTIONS", look_path(look), class: "text-dark text-decoration-none see-result mb-3" %>
-            </div>
-          </div>
-
-          <%# /contexts/:context_id/looks/:id(.:format) %>
-        </div>
-      <% end %>
+    <div class="d-flex align-items-center">
+      <h3 class="pt-3 ms-4 fw-light text-dark fs-6">SUGGESTED LOOKS | </h3>
+      <div class="pt-2 ms-1 text-dark fs-6"> <strong><%= @context.objective.upcase %></strong></div>
     </div>
+
+    <div id="messages"class="d-flex overflow-auto pb-3">
+        <%= render "messages/messages", looks: @looks %>
+    </div>
+
+  <div class="container col-8 mt-5" id="new_message">
+    <%= render "messages/form", context: @context, message: @message %>
   </div>
 
-  <div class="container col-8 mt-4" id="new_message">
-      <%= simple_form_for [@context, @message] do |f| %>
-      <%= f.input :content,
-                  placeholder: "Not 100% satisfied by Vestiary suggestions?",
-                  required: true,
-                  label: false,
-                  as: :text,
-                  input_html: { class: "border rounded-4 bg-white shadow-sm mb-4 text-secondary", rows: 3 } %>
-
-      <%= f.button :submit, "Fine tune my research",
-          class: "btn btn-dark btn-lg w-100 shadow" %>
-        <% end %>
-    </div>
-  </div>
 </div>
