@@ -1,0 +1,7 @@
+<%= turbo_stream.prepend "messages" do %>
+  <%= render "messages/message", look: @look %>
+<% end %>
+
+<%= turbo_stream.update "new_message" do %>
+  <%= render "messages/form", context: @context, message: Message.new %>
+<% end %>
