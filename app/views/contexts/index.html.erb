@@ -12,24 +12,32 @@
     </div>
   </div>
 
-  <div class="container col-8 mt-5">
-    <%= simple_form_for [@user, @context] do |f| %>
-      <%= f.input :objective,
-        placeholder: "What type of outfit are you looking for?",
-        required: true,
-        label: false,
-        as: :text,
-        input_html: { class: "border rounded-4 bg-white shadow-sm mb-4 text-secondary", rows: 3 } %>
 
-      <%= f.input :budget,
-        collection: %w[€ €€ €€€ €€€€],
-        prompt: "Quel est votre budget",
-        label: false,
-        input_html: { class: "border rounded-4 bg-white form-select shadow-sm mb-4" } %>
+  <div class="d-flex justify-content-center align-items-center w-100", style="height: 60vh;">
+    <div class="container col-8">
+        <%= simple_form_for [@user, @context] do |f| %>
+          <%= f.input :objective,
+            placeholder: "What type of outfit are you looking for?",
+            required: true,
+            label: false,
+            as: :text,
+            input_html: {
+              class: "border rounded-4 bg-white shadow-sm mb-4 text-secondary focus-shadow-lg",
+              rows: 3,
+              autofocus: true
+            } %>
 
-      <%= f.submit "Find my look!",
-        class: "btn btn-dark btn-lg w-100 shadow" %>
-      <% end %>
+          <%= f.input :budget,
+            collection: %w[€ €€ €€€ €€€€],
+            prompt: "Quel est votre budget",
+            label: false,
+            input_html: { class: "border rounded-4 bg-white form-select shadow-sm mb-4" } %>
+
+          <%= f.submit "Find my look!",
+            class: "btn btn-dark btn-lg w-100 shadow" %>
+          <% end %>
+      </div>
+      </div>
     </div>
   </div>
 </div>
