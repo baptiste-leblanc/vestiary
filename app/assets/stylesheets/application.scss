@@ -31,3 +31,37 @@ body {
   background: #F7F7F7;
 }
 
+.t-font-100 {
+  font-weight: 200;
+}
+
+.see-result {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.hello-username {
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+.magic {
+    width: 1.8vw; /* 10% de la largeur de l'écran */
+    height: auto;
+}
+
+select.form-select option {
+    background-color: white !important;
+    color: black;
+}
+
+/* Pour les navigateurs webkit (Chrome, Safari) */
+select.form-select {
+    background-color: white;
+}
+
+/* Style spécifique pour le dropdown ouvert */
+select.form-select:focus option {
+    background-color: white;
+    color: black;
+}

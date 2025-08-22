@@ -1,9 +1,16 @@
-<div class="mx-5 my-3">
-  <div class="d-flex flex-row align-items-center mb-5  ">
-    <%= link_to context_path(@look.context), class: "btn btn-link mx-0" do %>
-      <i class="fa-solid fa-angle-left fa-lg" style="color: #000000;"></i>
+<div class="justify-content-center">
+  <div>
+    <%= link_to context_path(@look.context), class: "btn btn-link p-0 me-2" do %>
+    <i class="fa-thin fa-angle-left fa-lg" style="color: #000000;"></i>
     <% end %>
-    <h2 class="mb-0"><%= @look.name %></h2>
+  </div>
+  <h3 class="pt-3 ms-4 fw-light text-dark fs-6 h1-custom" ><%= @look.name.upcase %></h3>
+</div>
+
+
+<div class="m-3">
+  <div class="d-flex flex-row align-items-center mb-5  ">
+
   </div>
 
   <div class="row g-3">
