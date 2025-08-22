@@ -1,38 +1,40 @@
-<div class="container col-6">
-
+<div class="container col-lg-8 col-md-4">
   <div class="justify-content-center m-3">
-   <h2>PAST SEARCH</h2>
-    <div>
+   <h2 class="mb-5">PAST SEARCH</h2>
+    <div class="scrolling-wrapper row flex-row flex-nowrap mt-5 pb-4 pt-5" style="overflow-x: auto;scrollbar-width: none;">
         <% @contexts.each do |context| %>
-          <div class="border m-2">
-            <h4 class="m-2"><%= context.objective %></h4>
-            <%= link_to "Go for this context", context_path(context) %>
+          <div class="d-flex flex-column col-lg-3 col-md-4 border m-2 rounded-3" style="background:#F7F7F7;height:150px;justify-content:space-between;width">
+            <h5 class="m-2"><%= context.objective %></h5>
+            <div class="align-self-end">
+              <%= link_to "Go for this context", context_path(context), class:'btn btn-dark m-2' %>
+            </div>
           </div>
         <% end %>
     </div>
   </div>
+</div>
 
 
+<div class="container col-lg-6 col-md-8 col-sm-10">
 
+  <div class="bg-gradient pt-3">
+    <div class="border-0 shadow-lg w-100">
+      <div class="p-5">
+        <%= simple_form_for [@user, @context] do |f| %>
+          <%= f.input :objective,
+              placeholder: "What type of outfit are you looking for?",
+              required: true,
+              label: false,
+              as: :text,
+              input_html: { class: "form-control form-control-lg border-0 shadow-sm mb-4", rows: 4 } %>
 
-<div class="bg-gradient pt-3">
-  <div class="border-0 shadow-lg w-100">
-    <div class="p-5">
-      <%= simple_form_for [@user, @context] do |f| %>
-        <%= f.input :objective,
-            placeholder: "What type of outfit are you looking for?",
-            required: true,
-            label: false,
-            as: :text,
-            input_html: { class: "form-control form-control-lg border-0 shadow-sm mb-4", rows: 4 } %>
+          <%= f.input :budget,
+              collection: %w[€ €€ €€€ €€€€],
+              input_html: { class: "form-select form-select-lg border-0 shadow-sm mb-4" } %>
 
-        <%= f.input :budget,
-            collection: %w[€ €€ €€€ €€€€],
-            input_html: { class: "form-select form-select-lg border-0 shadow-sm mb-4" } %>
-
-        <%= f.submit "Find my look!",
-            class: "btn btn-dark btn-lg w-100 shadow" %>
-      <% end %>
+          <%= f.submit "Find my look!",
+              class: "btn btn-dark btn-lg w-100 shadow" %>
+        <% end %>
+      </div>
     </div>
-  </div>
 </div>
