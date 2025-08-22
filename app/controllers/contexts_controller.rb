@@ -45,8 +45,8 @@ class ContextsController < ApplicationController
               Generate exactly 3 different stylish looks for this client and event.
               For each look, provide:
               - a name
-              Output format:
               - a short description explaining why it fits perfectly with the client. In order to attract customers who need quick solutions, it must be only one catchy sentence, as simple and effective as possible with the option of using until 2 targeted adjectives, in order to encourage clicks. This sentence should contain up to 20 words and shouldn't be displayed the name of the look.
+              Output format:
               Return the result as a JSON with a 'looks' that contains an array of 3 objects.
               Each object must have two fields: 'name' and 'description'.
               Do not include extra text before or after the JSON."

@@ -17,7 +17,7 @@ class MessagesController < ApplicationController
 
               For each look, provide:
               - a name
-              - a short description explaining why it fits perfectly with the client.
+              - a short description explaining why it fits perfectly with the client. In order to attract customers who need quick solutions, it must be only one catchy sentence, as simple and effective as possible with the option of using until 2 targeted adjectives, in order to encourage clicks. This sentence should contain up to 20 words and shouldn't be displayed the name of the look.
               Do not list the individual clothing items.
 
               Output format:
