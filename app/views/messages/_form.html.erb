@@ -1,0 +1,11 @@
+<%= simple_form_for [context, message] do |f| %>
+      <%= f.input :content,
+                  placeholder: "Not 100% satisfied by Vestiary suggestions?",
+                  required: true,
+                  label: false,
+                  as: :text,
+                  input_html: { class: "border rounded-4 bg-white shadow-sm mb-4 text-secondary", rows: 3 } %>
+
+      <%= f.button :submit, "Fine tune my research",
+          class: "btn btn-dark btn-lg w-100 shadow" %>
+        <% end %>

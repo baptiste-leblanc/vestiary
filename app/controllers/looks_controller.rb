@@ -8,7 +8,7 @@ class LooksController < ApplicationController
     morphology = "large build"
     chat = RubyLLM.chat(model: "gpt-4o").with_params(response_format: {type: 'json_object'})
     system_prompt = "You are a professional personal shopper.
-    Your role is to help a client choose clothing pieces that best match their needs.
+    Your role is to help a client choose clothing pieces that best match their needs with a dynamic and concise tone.
 
     Client profile:
     - Objective: wants pieces for this style: #{@look.name}
@@ -16,13 +16,14 @@ class LooksController < ApplicationController
     - Budget: #{@look.context['budget']}
 
     Task:
-    Generate up to 5 clothing items that form a coherent, stylish outfit for this client and event. Each item should include realistic values for:
+    Generate up to 5 clothing items that form a coherent, stylish outfit for this client and objects. All the results will be saved into an array called 'clothing_items' of items hashes. Each item should include realistic values for:
     clothing_category, name, description, price (without currency sign), brand, shop_url, unsplash_query.
 
     Constraints:
     - Fit the style objective
-    - Adapted to large morphology (comfortable, flattering cuts)
-    - Stay within medium budget
+    - Adapted to morphology
+    - Stay within budget
+    - Description should be displayed as only one catchy sentence, as simple and effective as possible. This sentence should contain up to 12 words and shouldn't be displayed the name of the look.
     - Have the relevant keywords for an image query in unsplash (with words separated by _)
 
 

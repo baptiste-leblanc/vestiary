@@ -1,0 +1,3 @@
+<% looks.order(created_at: :desc).each do |look| %>
+  <%= render "messages/message", look: look %>
+  <% end %>
