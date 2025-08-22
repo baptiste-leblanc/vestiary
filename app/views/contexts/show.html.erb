@@ -8,9 +8,10 @@
     <div id="messages"class="d-flex overflow-auto pb-3">
         <%= render "messages/messages", looks: @looks %>
     </div>
+</div>
 
+<div>
   <div class="container col-8 mt-5" id="new_message">
     <%= render "messages/form", context: @context, message: @message %>
   </div>
-
 </div>

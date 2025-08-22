@@ -3,33 +3,45 @@
     <h3 class="pt-3 ms-4 fw-light text-dark fs-6 h1-custom" >PREVIOUS SEARCHES</h3>
     <div class="d-flex overflow-auto mb-3" style="scrollbar-width: none;box-shadow:">
       <% @contexts.each do |context| %>
-        <div class="border rounded-4 bg-white flex-shrink-0 m-3 p-3 d-flex align-content-between flex-wrap shadow-sm" style="width: 300px;">
-          <h5 class="text-dark text-capitalize" ><strong><%= context.objective %></strong></h5>
-          <%= link_to "SEE RESULTS", context_path(context), class: "text-dark fs-6 text-decoration-none" %>
+        <div class="border rounded-4 bg-white flex-shrink-0 m-3 p-3 d-flex align-content-between flex-wrap shadow-sm t-font-100" style="width: 300px;">
+          <div class="text-dark text-capitalize" ><strong><%= context.objective %></strong></div>
+          <%= link_to "SEE RESULTS", context_path(context), class: "text-dark text-decoration-none see-result w-100" %>
         </div>
       <% end %>
     </div>
   </div>
 </div>
 
-  <div class="container col-8 mt-5">
-    <%= simple_form_for [@user, @context] do |f| %>
-      <%= f.input :objective,
-        placeholder: "What type of outfit are you looking for?",
-        required: true,
-        label: false,
-        as: :text,
-        input_html: { class: "border rounded-4 bg-white shadow-sm mb-4 text-secondary", rows: 3 } %>
 
-      <%= f.input :budget,
-        collection: %w[€ €€ €€€ €€€€],
-        prompt: "Quel est votre budget",
-        label: false,
-        input_html: { class: "border rounded-4 bg-white form-select shadow-sm mb-4" } %>
+  <div class="d-flex justify-content-center align-items-center w-100", style="height: 60vh;">
+      <div class="container hello-username col-8">
+        <div class="w-100  d-flex justify-content-center mb-4">
+        <img src="https://res.cloudinary.com/da5svsbtg/image/upload/v1755859725/sparkles-light-full_dpz0ac.svg" class="magic" alt="magic">
+          <div class="ms-3">Let's style you up, <%= current_user.username %> !</div>
+          </div>
+          <%= simple_form_for [@user, @context] do |f| %>
+            <%= f.input :objective,
+              placeholder: "What type of outfit are you looking for?",
+              required: true,
+              label: false,
+              as: :text,
+              input_html: {
+                class: "border rounded-4 bg-white shadow-sm mb-4 text-secondary focus-shadow-lg",
+                rows: 3,
+                autofocus: true
+              } %>
 
-      <%= f.submit "Find my look!",
-        class: "btn btn-dark btn-lg w-100 shadow" %>
-      <% end %>
+            <%= f.input :budget,
+              collection: %w[€ €€ €€€ €€€€],
+              prompt: "Quel est votre budget",
+              label: false,
+              input_html: { class: "border rounded-4 bg-white form-select shadow-sm mb-4 white-dropdown" } %>
+
+            <%= f.submit "Find my look!",
+              class: "btn btn-dark btn-lg w-100 shadow" %>
+            <% end %>
+        </div>
+        </div>
+      </div>
     </div>
-  </div>
 </div>
