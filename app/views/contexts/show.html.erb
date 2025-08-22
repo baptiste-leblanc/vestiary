@@ -1,11 +1,15 @@
 <div class="border-bottom" style="background-color: #f5f4ed" >
 
-  <h3 class="pt-3 ms-4 fw-light text-dark fs-6" >SUGGESTED LOOKS</h3>
+  <h3 class="pt-3 ms-4 fw-light text-dark fs-6" >SUGGESTED LOOKS FOR YOUR OBJECTIVE: <%= @context.objective.upcase %></h3>
     <div class="d-flex overflow-auto pb-3">
-      <% @looks.each do |look| %>
+      <% @looks.reverse.each do |look| %>
+        <% api_key = ENV["UNSPLASH_API_KEY"]
+         url = "https://api.unsplash.com/search/photos?client_id=#{api_key}&page=1&query=#{look.name}"
+         image_serialized = URI.parse(url).read
+         image = JSON.parse(image_serialized) %>
         <div class="border rounded-4 bg-white flex-shrink-0 m-3 mb-3 p-3 d-flex align-content-between flex-wrap shadow-sm" style="width: 400px;">
-
           <div class="">
+            <div class="card m-3" style="background-image:url('<%= image["results"][0]["urls"]["small"]%>');width:300px;height:300px;background-size:cover;background-position:center;"></div>
             <h4 class="m-2"><%= look.name %></h4>
             <p class="m-2"><%= look.description %></p>
             </div>
