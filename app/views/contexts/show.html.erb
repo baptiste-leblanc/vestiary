@@ -1,24 +1,33 @@
-<div class="container col-6">
-    <div class="justify-content-center m-5">
-    <h2>SUGGESTED LOOKS</h2>
-    <div>
-        <% @looks.each do |look| %>
-          <div class="border bg-white m-2">
+<div class="border-bottom" style="background-color: #f5f4ed" >
+
+  <h3 class="pt-3 ms-4 fw-light text-dark fs-6" >SUGGESTED LOOKS</h3>
+    <div class="d-flex overflow-auto pb-3">
+      <% @looks.each do |look| %>
+        <div class="border rounded-4 bg-white flex-shrink-0 m-3 mb-3 p-3 d-flex align-content-between flex-wrap shadow-sm" style="width: 400px;">
+
+          <div class="">
             <h4 class="m-2"><%= look.name %></h4>
             <p class="m-2"><%= look.description %></p>
-          </div>
-        <%= link_to "Show me the suggestions", look_path(look) %>
-        <%# /contexts/:context_id/looks/:id(.:format) %>
-        <% end %>
+            </div>
+          <%= link_to "SEE SUGGESTIONS", look_path(look), class: "text-dark fs-6 text-decoration-none" %>
+          <%# /contexts/:context_id/looks/:id(.:format) %>
+        </div>
+      <% end %>
     </div>
+  </div>
 
-    <div id="new_message">
+  <div class="container col-8 mt-5" id="new_message">
       <%= simple_form_for [@context, @message] do |f| %>
-      <%= f.input :content, placeholder: "Ask a question", required: true, label: false %>
-      <%= f.button :submit, "New chat", class: "btn btn-primary" %>
+      <%= f.input :content,
+                  placeholder: "Not 100% satisfied by Vestiary suggestions?",
+                  required: true,
+                  label: false,
+                  as: :text,
+                  input_html: { class: "border rounded-4 bg-white shadow-sm mb-4 text-secondary", rows: 3 } %>
+
+      <%= f.button :submit, "Fine tune my research",
+          class: "btn btn-dark btn-lg w-100 shadow" %>
         <% end %>
     </div>
-
-
   </div>
 </div>
