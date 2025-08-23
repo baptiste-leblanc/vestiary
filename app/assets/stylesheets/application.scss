@@ -49,6 +49,19 @@ body {
     width: 1.8vw; /* 10% de la largeur de l'écran */
     height: auto;
 }
+// Tablettes
+@media (max-width: 1024px) {
+  .magic {
+    width: 4vw;
+  }
+}
+
+// Mobiles
+@media (max-width: 600px) {
+  .magic {
+    width: 8vw;
+  }
+}
 
 select.form-select option {
     background-color: white !important;
@@ -64,4 +77,15 @@ select.form-select {
 select.form-select:focus option {
     background-color: white;
     color: black;
+}
+
+.hidden {
+  display: none !important;
+}
+.fade-in {
+  animation: fadeIn 0.3s ease-in;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
 }
